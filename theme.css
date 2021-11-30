@@ -1,0 +1,365 @@
+
+/*Menu*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+}
+menu{
+  width: 100%;
+  margin: 0 auto;
+  background-color: #555;
+  top: 0px;
+  position: fixed;
+  z-index: 1;
+}
+
+menu ul{
+  list-style-type: none;
+}
+
+menu ul li{
+  float:right;
+  width: 17%;
+  text-align: center;
+}
+
+menu ul::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+menu a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid transparent;
+  padding: 8px 0px;
+  cursor: pointer;
+}
+
+menu a:hover{
+  color: lightblue;
+  border-bottom: 2px solid skyblue;
+}
+menu > ul li:hover .sous{
+  display: block;
+}
+menu > ul > h2{
+  color: aquamarine;
+} 
+
+.home a{
+  color: cyan;
+  border-bottom: 2px solid cyan;
+}
+.home a:hover{
+  color: cyan;
+  border-bottom: 2px solid cyan;
+}
+
+/*Site*/
+section{
+  background: url('img/nyc.jpg');
+  width: 100%;
+  height: 550px;
+}
+.iplay{
+  position: fixed;
+  left: 0px;
+  bottom: 0%;
+  border: 0px;
+  transition: all .3s ease;
+  background-color: #333;
+}
+button:disabled{
+display: none;
+}
+
+html{
+background-color: #444;
+}
+a{
+text-decoration: none;
+color: #fff;
+}
+#mini, #grand{
+border: 1px solid transparent;
+background-color: transparent;
+color: #fff;
+height: 35px;
+width: 35px;
+position: fixed;
+right: 10px;
+z-index: 2;
+}
+
+#mini:hover, #grand:hover{
+border: 1px solid rgba(0, 0, 0, .1);
+background-color: rgba(0, 0, 0, .1);
+border-radius: 50px;
+}
+
+/*Popup*/
+.overlay{
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  background-color: rgba(179, 178, 178, 0.1);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  }
+  #save, #add, #about{ display: none;}
+  .info{
+    border: 1px solid rgb(179, 178, 178);
+    border-radius: 10px;
+    display: block;
+    background-color: #666;
+    height: 350px;
+    width: 80%;
+    position: fixed;
+    left: 130px;
+    top: 100px;
+    box-shadow: 2px 2px 12px #aaa;
+    z-index: 1;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .popc{
+    position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+  color: #fff;
+  }
+
+/*Bouton*/
+  p{
+    padding: 7px 5px 5px;
+    color: #fff;
+  }
+  h3{
+    color: aquamarine;
+    padding: 7px 5px 5px;
+  }
+
+  i{
+    padding-right: 10px;
+    font: inherit;
+            }
+    
+      .hidden-accessible {
+        width: 0.1px;
+          height: 0.1px;
+          opacity: 0;
+          overflow: hidden;
+          position: absolute;
+      }
+      .source {
+        display: inline-block;
+        width: 272px;
+        height: 62px;
+        background-color: pink;
+        border-radius: 5px;
+        cursor: pointer;
+        vertical-align: top;
+        margin: 5px;
+        overflow: hidden;
+        word-break: break-word;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        box-shadow: 0 8px 24px 0 rgba(251, 134, 255, 0.3);
+      }
+      .source:hover{
+        background-color: plum;
+      }
+      .add {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 25px;
+      }
+      .adt{
+        color: aquamarine;
+      }
+      .popt{
+        background-color: #777;
+        color: rgb(161, 255, 255);
+        width: 100%;
+        margin-bottom: 5px;
+        padding-left: 2px;
+      }
+
+/*Page*/
+h5{
+  font-size: 42px;
+  margin: 5px;
+  color: #fff;
+}
+h6{
+  font-size: 17px;
+  margin: -2px;
+  padding-top: 7px;
+}
+.addp{
+  background: #666;
+  float: left;
+  width: 200px;
+  height: 200px;
+  color: #fff;
+  margin-left: 10px;
+  border: 2px solid transparent;
+}
+.addp:hover{
+  border: 2px solid #aaa;
+}
+
+.elemw > a > img{
+  height: 70px;
+  width: 70px;
+  border-radius: 5px;
+  float:left;
+  cursor: pointer;
+}
+.elemw{
+  display: block;
+  width: 33%;
+  position: absolute;
+}
+.new{
+  width: 100%;
+  height: 300px;
+}
+.track{
+  color: #fff;
+}
+.author{
+  color:#aaa;
+}
+
+.n2{
+left: 33%;
+}
+.n3{
+left: 66%;
+}
+.n4{
+top: 210px;
+}
+.n5{
+left: 33%;
+top: 210px;
+}
+.n6{
+left: 66%;
+top: 210px;
+}
+
+.playlist{
+height: 650px;
+}
+.playlist > a > button{
+  height: 110px;
+  width: 300px;
+  font-size: 35px;
+  border-radius: 10px;
+  border: 2px solid #444;
+  color: #fff;
+  margin: 3px;
+}
+
+.playlist > a > button:hover{
+  border: 2px solid #aaa;
+}
+
+.p1{
+  background: linear-gradient(115deg,rgb(255, 0, 0) 0%,#ffd000 100%);
+}
+.p2{
+  background: linear-gradient(115deg,rgb(166, 255, 0) 0%,#00ffea 100%);
+}
+.p3{
+  background: linear-gradient(115deg,rgb(0, 238, 255) 0%,#a200ff 100%);
+}
+.elemr > a > img , button{
+height: 200px;
+width: 200px;
+border-radius: 10px;
+cursor: pointer;
+border: 2px solid transparent;
+}
+.elemr{
+  display: block;
+  position: absolute;
+}
+
+.radio{
+  margin: 5px;
+  color: #fff;
+  padding-bottom: 10px;
+}
+.r2{
+left: 19%;
+}
+.r3{
+left: 38%;
+}
+.r4{
+left: 57%;
+}
+.r5{
+left: 76%;
+}
+.elemr > a > button{
+  background: #666;
+  color: #fff;
+  font-size: 35px;
+}
+.elemr > a > button:hover{
+border: 2px solid #aaa;
+}
+.playbtn{
+  position: absolute;
+  display: none;
+}
+.elemr:hover .playbtn{
+  display: block;
+}
+.elemw:hover .playbtn{
+  display: block;
+}
+.elemr:hover, .elemw:hover{
+  opacity: 85%;
+}
+
+/*Espacement*/
+.spacep{
+  padding-top: 110px;
+}
+.spacen{
+  padding-top: 30px;
+}
+#spacei{
+  background: #444;
+  display: none;
+  position: absolute;
+  top: 1500px;
+}
+/*Scrollbar*/
+*::-webkit-scrollbar{
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #333;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #aaa;
+  border-radius: 20px;
+  border: 1px solid #333;
+}

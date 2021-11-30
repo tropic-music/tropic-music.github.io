@@ -1,1 +1,160 @@
-Ce site web est en construction mais il arrive bientot
+<!DOCTYPE html>
+<html lang="fr" >
+<head>
+  <meta charset="UTF-8">
+  <title>Tropic Music</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="description" content="Tropic Music est une petite platforme de streaming audio. Téchacharger, écouter gratuitement vos chanson préférer et vos radio"/>
+  <meta name="keywords" content="tropic music, tropic-music, musique, gratuit">
+  <meta name="title" content="Tropic Music">
+  <meta property="og:title" content="Tropic Music">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tropic-music.github.io">
+  <meta property="og:image" content="https://tropic-groupe.github.io/files/tropic-music.png">
+  <meta property="og:description" content="Tropic Music est une petite platforme de streaming audio. Téchacharger, écouter gratuitement vos chanson préférer et vos radio">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Tropic Music">
+  <meta name="twitter:description" content="Tropic Music est une petite platforme de streaming audio. Téchacharger, écouter gratuitement vos chanson préférer et vos radio">
+  <meta name="twitter:image" content="https://tropic-groupe.github.io/files/tropic-music.png">
+  <link href="https://tropic-groupe.github.io/files/tropic-music.png" rel="icon" type="image/png">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="theme.css">
+
+  <a href="https://tropic-music.github.io"><h2 style="position: fixed; top: 4px; left: 40px; z-index: 2;" class="adt">Tropic music</h2><img src="https://tropic-groupe.github.io/files/tropic-music.png" height="25px" style="position: fixed; top: 5px; left: 10px; z-index: 2;"></a>
+  <menu>
+      <ul>
+          <li><a onclick="about()">A propos</a></li>
+          <li><a onclick="add()">Ajouter votre playlist, ...</a></li>
+          <li><a onclick="save()">Télécharger</a></li>
+          <li class="home"><a >Accueil</a></li>
+        </li>
+      </ul>
+  </menu>
+  <h1 style="z-index: 0;">.</h1>
+</head>
+
+<body>
+  <!--Popup-->
+  <div id="start"><div class="info">
+    <div class="popt"><h1>Tropic Music : Info Droit Auteur</h1></div>  
+  <strong><p style="font-size: 23px;">Info : Avant de télécharger une morceaux sacher que la plus par des musique que vous trouverez sur notre site sont Copyright et donc vous ne pouvez donc pas les réutiliser librement (vous ne pouvez que les utiliser à usage personnel, vous ne pouvez pas les utiliser a but commercial,...). Les musiques nom copyright on dans leurs nom (NCS)</p></strong>
+  
+  <p style="position: absolute; bottom: 5px; left: 5px; font-size: 18px;">Ne plus afficher :</p><input type="checkbox" id="checkbox" style="position: absolute; bottom: 13px; left: 150px;"/>
+  <h1 class="material-icons popc" onclick="start()">highlight_off</h1></div>
+  <div class="overlay" onclick="start()"></div></div>
+  <script src="start.js"></script>
+
+
+  <div id="save"><div class="info">
+    <div class="popt"><h1>Télécharger des musique</h1></div>  
+  <center>
+  <p>Avant de télécharger une/des musique(s) sacher que la plus par des musique que vous trouverez sur notre site sont Copyright et donc soumis à des droit d'auteur vous ne pouvez donc pas les réutiliser librement (Vous ne pouvez les utiliser qu'à usage personnel, vous ne pouvez pas les utiliser a but commercial ou autre. les musique non copyright on dans leurs nom (NCS).</p>
+  <p>Pour télécharger une/des musique(s) vous devez suivre les parcours suivent (en fonction de votre navigateur)</p>
+  </center>
+  <h3>Edge, Chrome, Safari</h3>
+  <img src="" height="125px">
+  <h3>Firefox</h3>
+  <img src="" height="125px">
+  
+  <h1 class="material-icons popc" onclick="save()">highlight_off</h1></div>
+  <div class="overlay" onclick="save()"></div></div>
+
+  <div id="add"><div class="info">
+    <div class="popt"><h1>Ajouter playlist et radio</h1></div>
+    <h2 class="adt">Ajouter votre playlist :</h2>
+    <p>Une playlist doit contenir minimum 4 musique</p>
+      <a href="https://forms.gle/ZsA3oB2MVv2JRDGk7" target="_blank"><div class="btn">
+        <label class="add ad source" for="html" id="btn"><i>Ajouter votre playlist</i><i class="material-icons">playlist_add</i></label><input type="button" class="hidden-accessible" id="html" onclick="capt()">
+      </div></a>
+        <h2 class="adt">Ajouter une radio :</h2>
+        <p>La radio doit avoir un flux audio sur le web (disponible en webradio)</p>
+        <a href="https://forms.gle/yVW5oJ5F49x3BC268" target="_blank"><div class="btn">
+          <label class="add ad source" for="html" id="btn"><i>Ajouter une radio</i><i class="material-icons">radio</i></label><input type="button" class="hidden-accessible" id="html" onclick="capt()">
+        </div></a>
+    <h1 class="material-icons popc" onclick="add()">highlight_off</h1></div>
+    <div class="overlay" onclick="add()"></div></div>
+
+    <div id="about"><div class="info">
+      <div class="popt"><h1>A propos</h1></div>
+      <h2 class="adt">Nous :</h2>
+      <p>Tropic music est une platforme en ligne de streaming music. Vous pouvez écouter de la musique, la radio et des télécharger des morceaux. Notre plutforme est 100% gratuite et sans inscription.</p>
+      
+      <h2 class="adt">Condition d'utilisation :</h2>
+      <p>Vous n'avez pas le droit de copie le design du site. Mais vous pouvez télécharger les morceaux disponnible sur le site car ce service et inclut sur la platforme, par contre sacher que ces musique sont pour la plupart soumise à des droit d'auteur vous ne pourez donc pas les réutiliser librement (notament à but commercial)</p>
+
+      <h2 class="adt">Aider nous :</h2>
+      <p>Ajouter vos playlist et radio sur notre platforme. Aider nous a nous amélioré :</p>
+      <a href="https://forms.gle/pj66PjB2sh52fGTn7" target="_blank"><div class="btn">
+        <label class="add ad source" for="html" id="btn"><i>Aider nous</i><i class="material-icons">help_outline</i></label><input type="button" class="hidden-accessible" id="html" onclick="capt()">
+      </div></a>
+      <h1 class="material-icons popc" onclick="about()">highlight_off</h1></div>
+      <div class="overlay" onclick="about()"></div></div>
+
+<!--Music-->
+<section>
+<div>
+  <div>
+      <h5 class="spacen">Nouveauté</h5>
+      <div class="new">
+          <div class="elemw">
+<a href="./tracks/song1.html" target="iframe" onclick="mini()"><img src="img/playbtn.png" class="playbtn"><img src="img/song1.PNG"></a><h6 class="track">Time time</h6><h6 class="author">Trei degete</h6>
+          </div>
+  <div class="elemw n2">
+      <a href="./tracks/song2.html" target="iframe" onclick="mini()"><img src="img/playbtn.png" class="playbtn"><img src="img/song2.PNG"></a><h6 class="track">Offichal</h6><h6 class="author">Ambiance scandale</h6>
+  </div>
+  <div class="elemw n3">
+      <a href="./tracks/song3.html" target="iframe" onclick="mini()"><img src="img/playbtn.png" class="playbtn"><img src="img/song3.PNG"></a><h6 class="track">Call me papi</h6><h6 class="author">Feder ft Ofenbach</h6>
+  </div>
+  <div class="elemw n4">
+      <a href="./tracks/song4.html" target="iframe" onclick="mini()"><img src="img/playbtn.png" class="playbtn"><img src="img/song4.PNG"></a><h6 class="track">My Univers</h6><h6 class="author">Coldplay ft BTS</h6>
+                  </div>
+          <div class="elemw n5">
+              <a href="./tracks/song5.html" target="iframe" onclick="mini()"><img src="img/playbtn.png" class="playbtn"><img src="img/song5.PNG"></a><h6 class="track">Shivers</h6><h6 class="author">Ed sheeran</h6>
+          </div>
+      <div class="elemw n6">
+          <a href="./tracks/song6.html" target="iframe" onclick="mini()"><img src="img/playbtn.png" class="playbtn"><img src="img/song6.PNG"></a><h6 class="track">Bruxelle je t'aime</h6><h6 class="author">Angèle</h6>
+      </div>
+  </div>
+</div>
+  <div class="playlist">
+      <h5>Playlist</h5>
+      <a><button class="p1">Hits 2022 (bientôt)</button></a>
+      <a href="playlist/hits2021.html" target="iframe" onclick="mini()"><button class="p2">Hits 2021</button></a>
+      <a href="playlist/top5.html" target="iframe" onclick="mini()"><button class="p3">Top 5 France</button></a>
+      <h5 class="spacep">Vos Playlist</h5>
+      <center>
+          <a href="https://forms.gle/ZsA3oB2MVv2JRDGk7" target="_blank"><button class="addp material-icons">add</button></a>
+          </center>
+  </div>
+  <div class="radio">
+      <h5>Web Radios</h5>
+      <div class="elemr">
+        <a href="radio/ng-radio.html" target="iframe" onclick="mini()"><img src="img/playbtn.png" class="playbtn"><img src="img/ngradio.png"></a><h2 class="radio">NG Radio</h2>
+                      </div>
+              <div class="elemr r2">
+                  <a href="radio/nrj.html" target="iframe" onclick="mini()"><img src="img/playbtn.png" class="playbtn"><img src="img/nrj.png"></a><h2 class="radio">NRJ</h2>
+              </div>
+              <div class="elemr r3">
+                  <a href="radio/virgin.html" target="iframe" onclick="mini()"><img src="img/playbtn.png" class="playbtn"><img src="img/virgin.jpg"></a><h2 class="radio">Virgin Radio</h2>
+              </div>
+              <div class="elemr r4">
+                  <a href="radio/skyrock.html" target="iframe" onclick="mini()"><img src="img/playbtn.png" class="playbtn"><img src="img/skyrock.jpg"></a><h2 class="radio">Skyrock</h2>
+              </div>
+              <div class="elemr r5">
+                  <a href="https://forms.gle/yVW5oJ5F49x3BC268" target="_blank"><button class="material-icons">add</button></a>
+              </div>
+  </div>
+</div>
+<div id="spacei"><p>.</p></div>
+
+<!-- Player-->
+  <button onclick="mini()" class="material-icons" id="mini" disabled>close_fullscreen</button>
+  <button onclick="grand()" class="material-icons" id="grand" disabled>open_in_full</button>
+<iframe src="" height="0px" name="iframe" scrolling="no" width="100%" class="iplay" id="iplay"></iframe>
+
+<!--Contenu page-->
+<script src="script.js"></script>
+</body>
+</html>
