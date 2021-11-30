@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr" >
+<head>
+  <meta charset="UTF-8">
+  <title>Tropic Music</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel='stylesheet' href='../player.css'><link rel="stylesheet" href="../style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+<body>
+<div class="container">
+    <div class="column add-bottom">
+        <div id="mainwrap">
+            <div id="nowPlay">
+                <span id="npAction">En pause...</span><span id="npTitle"></span>
+            </div>
+            <div id="audiowrap">
+                <div id="audio0">
+                    <audio id="audio1" preload controls autoplay>Votre navigateur ne supporte pas HTML5! Veuillez le mettre a jour!</audio>
+                </div>
+                <div id="tracks">
+                    <a id="btnPrev" title="Précedent" accesskey="p" class="material-icons">fast_rewind</a><a id="btnNext" title="Suivant" accesskey="n" class="material-icons">fast_forward</a>
+                </div>
+            </div>
+            <div id="plwrap">
+                <ul id="plList"></ul>
+            </div>
+        </div>
+    </div>
+    <div class="column add-bottom center">
+    </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/html5media/1.1.8/html5media.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/plyr/3.6.8/plyr.min.js'></script>
+
+<script  src="./song5.js"></script>
+<style>
+    /* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+background: #333;
+}
+
+*::-webkit-scrollbar-thumb {
+background-color: #eee;
+border-radius: 15px;
+border: 1px solid #eee;
+}
+body{
+    background-color: rgba(255, 0, 0, 0.4);
+}
+</style>
+</body>
+</html>
