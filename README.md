@@ -8,4 +8,5 @@
 
 (English) See ahead our future site! In this version, some titles may be missing or duplicated in a playlist.
 # Info :
-(English) Our website is not in English, but you can translate website with our translate tools in our web navigator
+(English) Our website is not in English, but you can translate website with our translate tools in our web navigator. Official V1.0 will be published today at 1pm
+(Français) La V1.0 oficielle sortira aujourd'hui à 13h
