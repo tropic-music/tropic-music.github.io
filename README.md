@@ -1,7 +1,7 @@
 # Tropic Music (Beta) :
-(Français) Tropic Music est une petite platforme de streaming audio. Téchacharger, écouter gratuitement vos chanson préférer et vos radio
+(Français) Tropic Music est une petite plateforme de streaming audio. Télécharger, écouter gratuitement vos chanson préférer et vos webradio
 
-(English) Tropic Music is a small audio streaming platform. Download, listen to your favorite songs and radio stations for free.
+(English) Tropic Music is a small audio streaming platform. Download, listen to your favorite songs and webradio for free.
 
 # Version Beta :
 (Français) Voyez en avant notre futur site ! Dans cette version il se peut que des titre manque ou soit en double dans une playlist
