@@ -82,9 +82,9 @@ jQuery(function ($) {
                 "file": "Ed Sheeran - Shivers"
             }, {
                 "track": 13,
-                "name": "Ed Sheeran - Shivers",
-                "duration": "3:21",
-                "file": "Ed Sheeran - Shivers"
+                "name": "Dopamine ft Eyelar - Purple Disco Machine",
+                "duration": "3:24",
+                "file": "Purple Disco Machine - Dopamine ft. Eyelar"
             }, {
                 "track": 14,
                 "name": "Farruko - Pepas",
