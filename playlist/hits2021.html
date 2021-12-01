@@ -10,8 +10,8 @@
     #scrollUp
     {
     position: fixed;
-    bottom : 10px;
-    right: -100px;
+    top : 10px;
+    left: 100px;
     opacity: 0.5;
     }
     </style>
@@ -28,7 +28,7 @@
                     $(function () {
                         $(window).scroll(function () {
                             if ($(this).scrollTop() > 10 ) { 
-                                $('#scrollUp').css('right','10px');
+                                $('#scrollUp').css('left','10px');
                             } else { 
                                 $('#scrollUp').removeAttr( 'style' );
                             }
