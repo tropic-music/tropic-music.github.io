@@ -34,7 +34,7 @@ jQuery(function ($) {
                 "track": 3,
                 "name": "Love nwantiti Ckay ft Dj Yo & AX EL",
                 "duration": "3:03",
-                "file": "Love nwantiti ft Dj Yo & AX EL"
+                "file": "love nwantiti ft Dj Yo & AX EL"
             }, {
                 "track": 4,
                 "name": "Naps - La kiffance",
