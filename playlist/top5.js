@@ -27,24 +27,24 @@ jQuery(function ($) {
                 "file": "Trei Degete - Time Time"
             }, {
                 "track": 2,
-                "name": "OrelSan - L'odeur de l'essence",
-                "duration": "3:55",
-                "file": "OrelSan - L'odeur de l'essence"
-            }, {
-                "track": 3,
                 "name": "Naps ft GIMS - Best life",
                 "duration": "3:07",
                 "file": "Naps ft GIMS - Best life"
             }, {
-                "track": 4,
-                "name": "Love nwantiti ft Dj Yo & AX EL",
+                "track": 3,
+                "name": "Love nwantiti Ckay ft Dj Yo & AX EL",
                 "duration": "3:03",
-                "file": "love nwantiti ft Dj Yo & AX EL"
+                "file": "Love nwantiti ft Dj Yo & AX EL"
+            }, {
+                "track": 4,
+                "name": "Naps - La kiffance",
+                "duration": "2:34",
+                "file": "Naps - La kiffance"
             }, {
                 "track": 5,
-                "name": "Gazo ft Ninho - Mauvais 2X",
-                "duration": "3:43",
-                "file": "GAZO x NINHO - MAUVAIS 2X"
+                "name": "Ninho - Binks to Binks Part 7",
+                "duration": "3:39",
+                "file": "Ninho - Binks to Binks Part 7"
             }],
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,
