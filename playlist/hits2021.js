@@ -32,61 +32,66 @@ jQuery(function ($) {
                 "file": "Ambiance Skandal - Offishal"
             }, {
                 "track": 3,
+                "name": "The weeknd ft Swedish House Mafia - Moth To a Flame",
+                "duration": "3:36",
+                "file": "The weeknd x Swedish House Mafia - Moth To a Flame"
+            }, {
+                "track": 4,
                 "name": "Naps ft GIMS - Best life",
                 "duration": "3:07",
                 "file": "Naps ft GIMS - Best life"
             }, {
-                "track": 4,
+                "track": 5,
                 "name": "OrelSan - L'odeur de l'essence",
                 "duration": "3:55",
                 "file": "OrelSan - L'odeur de l'essence"
             }, {
-                "track": 5,
+                "track": 6,
                 "name": "Stromae - Santé",
                 "duration": "3:25",
                 "file": "Stromae - Santé"
             }, {
-                "track": 6,
+                "track": 7,
                 "name": "Angèle - Bruxelles je t’aime",
                 "duration": "3:26",
                 "file": "Angèle Bruxelles je t’aime"
             }, {
-                "track": 7,
+                "track": 8,
                 "name": "Feder ft Ofenbach – Call Me Papi",
                 "duration": "2:20",
                 "file": "Feder & Ofenbach – Call Me Papi"
             }, {
-                "track": 8,
+                "track": 9,
                 "name": "Gazo x Ninho - Mauvais 2X",
                 "duration": "3:43",
                 "file": "GAZO x NINHO - MAUVAIS 2X"
             }, {
-                "track": 9,
+                "track": 10,
                 "name": "Love nwantiti ft Dj Yo & AX EL",
                 "duration": "3:03",
                 "file": "love nwantiti ft Dj Yo & AX EL"
             }, {
-                "track": 10,
+                "track": 11,
                 "name": "Squid Kids – Red Light, Green Light",
                 "duration": "2:11",
                 "file": "Squid Kids – Red Light, Green Light"
             }, {
-                "track": 11,
+                "track": 12,
                 "name": "Coldplay X BTS - My Universe",
                 "duration": "3:07",
                 "file": "Coldplay X BTS - My Universe"
             }, {
-                "track": 12,
+                "track": 13,
                 "name": "Ed Sheeran - Shivers",
                 "duration": "3:21",
                 "file": "Ed Sheeran - Shivers"
             }, {
-                "track": 13,
+                "track": 14,
                 "name": "Dopamine ft Eyelar - Purple Disco Machine",
                 "duration": "3:24",
                 "file": "Purple Disco Machine - Dopamine ft. Eyelar"
             }, {
-                "track": 14,
+                "track": 15,
                 "name": "Farruko - Pepas",
                 "duration": "3:33",
                 "file": "Farruko - Pepas"
