@@ -22,9 +22,9 @@ jQuery(function ($) {
             extension = '',
             tracks = [{
                 "track": 1,
-                "name": "Ambiance scandale - Offichal",
+                "name": "The weeknd ft Swedish House Mafia - Moth To a Flame",
                 "duration": "2:32",
-                "file": "Ambiance Skandal - Offishal"
+                "file": "The weeknd x Swedish House Mafia - Moth To a Flame"
             }],
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,
