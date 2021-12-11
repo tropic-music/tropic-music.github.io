@@ -23,7 +23,7 @@ jQuery(function ($) {
             tracks = [{
                 "track": 1,
                 "name": "The weeknd ft Swedish House Mafia - Moth To a Flame",
-                "duration": "2:32",
+                "duration": "3:36",
                 "file": "The weeknd x Swedish House Mafia - Moth To a Flame"
             }],
             buildPlaylist = $.each(tracks, function(key, value) {
