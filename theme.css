@@ -350,6 +350,13 @@ border: 2px solid #aaa;
   top: 1500px;
 }
 /*Scrollbar*/
+/*Firefox*/
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #eee #333;
+  }
+
+/*Chrome, Edge, Safari*/
 *::-webkit-scrollbar{
   width: 12px;
 }
