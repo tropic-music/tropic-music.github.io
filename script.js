@@ -3,15 +3,17 @@ function mini() {
     document.getElementById("mini").disabled = true;
     document.getElementById("grand").disabled = false; 
     document.getElementById("iplay").scrolling = "no"
+    document.body.style.overflow = 'visible';
     document.getElementById("mini").style.top = "87%"
     document.getElementById("grand").style.top = "87%"
     document.getElementById("spacei").style.display = "block"
   }
   function grand() {
-    document.getElementById("iplay").style.height = "95%";
+    document.getElementById("iplay").style.height = "94.2%";
     document.getElementById("grand").disabled = true;
     document.getElementById("mini").disabled = false;
     document.getElementById("iplay").scrolling = "yes"
+      document.body.style.overflow = 'hidden';
     document.getElementById("mini").style.top = "8%"
     document.getElementById("grand").style.top = "8%"
   }
