@@ -9,7 +9,7 @@ function mini() {
     document.getElementById("spacei").style.display = "block"
   }
   function grand() {
-    document.getElementById("iplay").style.height = "94.2%";
+    document.getElementById("iplay").style.height = "94.5%";
     document.getElementById("grand").disabled = true;
     document.getElementById("mini").disabled = false;
     document.getElementById("iplay").scrolling = "yes"
