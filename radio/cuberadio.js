@@ -97,7 +97,7 @@ jQuery(function ($) {
                 $('#plList li:eq(' + id + ')').addClass('plSel');
                 npTitle.text(tracks[id].name);
                 index = id;
-                audio.src = mediaPath + tracks[id].file + extension;
+                audio.src = mediaPath + tracks[id].file;
                 updateDownload(id, audio.src);
             },
             updateDownload = function (id, source) {
