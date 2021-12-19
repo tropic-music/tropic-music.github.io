@@ -22,29 +22,29 @@ jQuery(function ($) {
             extension = '',
             tracks = [{
                 "track": 1,
-                "name": "Trei Degete - Time Time",
-                "duration": "2:55",
-                "file": "Trei Degete - Time Time"
+                "name": "Nihno - Jefe",
+                "duration": "2:52",
+                "file": "Nihno - Jefe"
             }, {
                 "track": 2,
                 "name": "Naps ft GIMS - Best life",
                 "duration": "3:07",
                 "file": "Naps ft GIMS - Best life"
-            }, {
+            }, 
                 "track": 3,
-                "name": "Love nwantiti Ckay ft Dj Yo & AX EL",
-                "duration": "3:03",
-                "file": "love nwantiti ft Dj Yo & AX EL"
+                "name": "Trei Degete - Time Time",
+                "duration": "2:55",
+                "file": "Trei Degete - Time Time"
             }, {
                 "track": 4,
-                "name": "Naps - La kiffance",
-                "duration": "2:34",
-                "file": "Naps - La kiffance"
+                "name": "Love nwantiti ft Dj Yo & AX EL",
+                "duration": "3:03",
+                "file": "Love nwantiti ft Dj Yo & AX EL"
             }, {
                 "track": 5,
-                "name": "Ninho - Binks to Binks Part 7",
-                "duration": "3:39",
-                "file": "Ninho - Binks to Binks Part 7"
+                "name": "Nihno - Aïcha",
+                "duration": "3:05",
+                "file": "Nihno - Aïcha"
             }],
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,
