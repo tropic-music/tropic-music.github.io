@@ -315,7 +315,8 @@ left: 57%;
 left: 76%;
 }
 .r6{
-top : 2000px;
+top: 1400px;
+padding-bottom: 10px;
 }
 .elemr > a > button{
   background: #666;
@@ -350,7 +351,7 @@ border: 2px solid #aaa;
   background: #444;
   display: none;
   position: absolute;
-  top: 1500px;
+  top: 1675px;
 }
 /*Scrollbar*/
 /*Firefox*/
