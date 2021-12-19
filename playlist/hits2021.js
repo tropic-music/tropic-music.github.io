@@ -32,9 +32,9 @@ jQuery(function ($) {
                 "file": "Ambiance Skandal - Offishal"
             }, {
                 "track": 3,
-                "name": "The weeknd ft Swedish House Mafia - Moth To a Flame",
-                "duration": "3:36",
-                "file": "The weeknd x Swedish House Mafia - Moth To a Flame"
+                "name": "Imagine Dragons - Wrecked",
+                "duration": "3:30",
+                "file": "Imagine Dragons - Wrecked"
             }, {
                 "track": 4,
                 "name": "Naps ft GIMS - Best life",
