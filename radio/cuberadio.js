@@ -109,7 +109,6 @@ jQuery(function ($) {
                 loadTrack(id);
                 audio.play();
             };
-        extension = audio.canPlayType('audio/mpeg') ? '.mp3' : audio.canPlayType('audio/ogg') ? '.ogg' : '';
         loadTrack(index);
     } else {
 
