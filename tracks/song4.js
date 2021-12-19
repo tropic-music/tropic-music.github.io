@@ -22,9 +22,9 @@ jQuery(function ($) {
             extension = '',
             tracks = [{
                 "track": 1,
-                "name": "Coldplay ft BTS - My Univers",
-                "duration": "3:07",
-                "file": "Coldplay X BTS - My Universe"
+                "name": "Ed Sheeran ft Elton John - Merry Christmas",
+                "duration": "3:18",
+                "file": "Ed Sheeran ft Elton John - Merry Christmas"
             }],
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,
