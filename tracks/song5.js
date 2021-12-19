@@ -22,9 +22,9 @@ jQuery(function ($) {
             extension = '',
             tracks = [{
                 "track": 1,
-                "name": "Ed Sheeran - Shivers",
-                "duration": "3:21",
-                "file": "Ed Sheeran - Shivers"
+                "name": "Gregory Porter - Dry Bones",
+                "duration": "2:55",
+                "file": "Gregory Porter - Dry Bones"
             }],
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,
