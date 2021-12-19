@@ -314,6 +314,9 @@ left: 57%;
 .r5{
 left: 76%;
 }
+.r6{
+top : 2000px;
+}
 .elemr > a > button{
   background: #666;
   color: #fff;
