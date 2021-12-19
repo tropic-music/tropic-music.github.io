@@ -22,34 +22,19 @@ jQuery(function ($) {
             extension = '',
             tracks = [{
                 "track": 1,
-                "name": "Trei degete - Time time",
-                "duration": "2:55",
-                "file": "Trei Degete - Time Time"
+                "name": "Ed Sheeran ft Elton John - Merry Christmas",
+                "duration": "3:18",
+                "file": "Ed Sheeran ft Elton John - Merry Christmas"
             }, {
                 "track": 2,
-                "name": "Ambiance Skandal - Offishal",
-                "duration": "2:32",
-                "file": "Ambiance Skandal - Offishal"
+                "name": "Gregory Porter - Dry Bones",
+                "duration": "2:55",
+                "file": "Gregory Porter - Dry Bones"
             }, {
                 "track": 3,
                 "name": "The weeknd ft Swedish House Mafia - Moth To a Flame",
                 "duration": "3:36",
                 "file": "The weeknd x Swedish House Mafia - Moth To a Flame"
-            }, {
-                "track": 4,
-                "name": "Naps ft GIMS - Best life",
-                "duration": "3:07",
-                "file": "Naps ft GIMS - Best life"
-            }, {
-                "track": 5,
-                "name": "OrelSan - L'odeur de l'essence",
-                "duration": "3:55",
-                "file": "OrelSan - L'odeur de l'essence"
-            }, {
-                "track": 6,
-                "name": "Stromae - Santé",
-                "duration": "3:25",
-                "file": "Stromae - Santé"
             }],
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,
