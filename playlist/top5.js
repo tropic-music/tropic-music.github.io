@@ -30,7 +30,7 @@ jQuery(function ($) {
                 "name": "Naps ft GIMS - Best life",
                 "duration": "3:07",
                 "file": "Naps ft GIMS - Best life"
-            }, 
+            }, {
                 "track": 3,
                 "name": "Trei Degete - Time Time",
                 "duration": "2:55",
