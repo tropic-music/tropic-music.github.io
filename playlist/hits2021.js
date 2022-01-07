@@ -27,9 +27,9 @@ jQuery(function ($) {
                 "file": "Trei Degete - Time Time"
             }, {
                 "track": 2,
-                "name": "Ambiance Skandal - Offishal",
-                "duration": "2:32",
-                "file": "Ambiance Skandal - Offishal"
+                "name": "VITAA & SLIMANE - XY",
+                "duration": "2:35",
+                "file": "VITAA & SLIMANE - XY"
             }, {
                 "track": 3,
                 "name": "Imagine Dragons - Wrecked",
@@ -42,56 +42,61 @@ jQuery(function ($) {
                 "file": "Naps ft GIMS - Best life"
             }, {
                 "track": 5,
+                "name": "Ambiance Skandal - Offishal",
+                "duration": "2:32",
+                "file": "Ambiance Skandal - Offishal"
+            }, {
+                "track": 6,
                 "name": "OrelSan - L'odeur de l'essence",
                 "duration": "3:55",
                 "file": "OrelSan - L'odeur de l'essence"
             }, {
-                "track": 6,
+                "track": 7,
                 "name": "Stromae - Santé",
                 "duration": "3:25",
                 "file": "Stromae - Santé"
             }, {
-                "track": 7,
+                "track": 8,
                 "name": "Angèle - Bruxelles je t’aime",
                 "duration": "3:26",
                 "file": "Angèle Bruxelles je t’aime"
             }, {
-                "track": 8,
+                "track": 9,
                 "name": "Feder ft Ofenbach – Call Me Papi",
                 "duration": "2:20",
                 "file": "Feder & Ofenbach – Call Me Papi"
             }, {
-                "track": 9,
+                "track": 10,
                 "name": "Gazo x Ninho - Mauvais 2X",
                 "duration": "3:43",
                 "file": "GAZO x NINHO - MAUVAIS 2X"
             }, {
-                "track": 10,
+                "track": 11,
                 "name": "Love nwantiti ft Dj Yo & AX EL",
                 "duration": "3:03",
                 "file": "love nwantiti ft Dj Yo & AX EL"
             }, {
-                "track": 11,
+                "track": 12,
                 "name": "Squid Kids – Red Light, Green Light",
                 "duration": "2:11",
                 "file": "Squid Kids – Red Light, Green Light"
             }, {
-                "track": 12,
+                "track": 13,
                 "name": "Coldplay X BTS - My Universe",
                 "duration": "3:07",
                 "file": "Coldplay X BTS - My Universe"
             }, {
-                "track": 13,
+                "track": 14,
                 "name": "Ed Sheeran - Shivers",
                 "duration": "3:21",
                 "file": "Ed Sheeran - Shivers"
             }, {
-                "track": 14,
+                "track": 15,
                 "name": "Dopamine ft Eyelar - Purple Disco Machine",
                 "duration": "3:24",
                 "file": "Purple Disco Machine - Dopamine ft. Eyelar"
             }, {
-                "track": 15,
+                "track": 16,
                 "name": "Farruko - Pepas",
                 "duration": "3:33",
                 "file": "Farruko - Pepas"
