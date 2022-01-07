@@ -22,16 +22,26 @@ jQuery(function ($) {
             extension = '',
             tracks = [{
                 "track": 1,
+                "name": "Kungs - Regarde-moi",
+                "duration": "2:51",
+                "file": "Kungs - Regarde-moi"
+            }, {
+                "track": 2,
+                "name": "OrelSan - Jour meilleur",
+                "duration": "3:36",
+                "file": "OrelSan - Jour meilleur"
+            }, {
+                "track": 3,
                 "name": "Ed Sheeran ft Elton John - Merry Christmas",
                 "duration": "3:18",
                 "file": "Ed Sheeran ft Elton John - Merry Christmas"
             }, {
-                "track": 2,
+                "track": 4,
                 "name": "Gregory Porter - Dry Bones",
                 "duration": "2:55",
                 "file": "Gregory Porter - Dry Bones"
             }, {
-                "track": 3,
+                "track": 5,
                 "name": "The weeknd ft Swedish House Mafia - Moth To a Flame",
                 "duration": "3:36",
                 "file": "The weeknd x Swedish House Mafia - Moth To a Flame"
