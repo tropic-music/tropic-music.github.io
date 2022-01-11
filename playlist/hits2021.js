@@ -72,7 +72,7 @@ jQuery(function ($) {
                 "file": "GAZO x NINHO - MAUVAIS 2X"
             }, {
                 "track": 11,
-                "name": "Love nwantiti ft Dj Yo & AX EL",
+                "name": "Ckay - Love nwantiti",
                 "duration": "3:03",
                 "file": "love nwantiti ft Dj Yo & AX EL"
             }, {
