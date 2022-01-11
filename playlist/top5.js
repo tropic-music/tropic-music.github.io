@@ -32,19 +32,19 @@ jQuery(function ($) {
                 "file": "Nihno - Jefe"
             }, {
                 "track": 3,
-                "name": "Mariah Carey - All I want for christmas is you",
-                "duration": "3:44",
-                "file": "Mariah Carey - All I want for christmas is you"
-            }, {
-                "track": 4,
-                "name": "Trei Degete - Time Time",
-                "duration": "2:55",
-                "file": "Trei Degete - Time Time"
+                "name": "Ckay - Love nwantiti",
+                "duration": "3:03",
+                "file": "love nwantiti ft Dj Yo & AX EL"
             }, {
                 "track": 5,
                 "name": "Naps - La kiffance",
                 "duration": "2:34",
                 "file": "Naps - La kiffance"
+            }, {
+                "track": 5,
+                "name": "Trei Degete - Time Time",
+                "duration": "2:55",
+                "file": "Trei Degete - Time Time"
             }],
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,
