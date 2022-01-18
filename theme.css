@@ -210,7 +210,7 @@ h6{
   width: 200px;
   height: 200px;
   color: #fff;
-  margin-left: 10px;
+  margin: 3px;
   border: 2px solid transparent;
 }
 .addp:hover{
@@ -264,9 +264,18 @@ height: 650px;
 .vp{
    width: 200px;
   height: 200px;
+  font-size: 35px;
+  border-radius: 10px;
+  border: 2px solid #444;
+  color: #fff;
+  margin: 3px;
 }
+.vp:hover{
+  border: 2px solid #aaa;
+}
+
     
-.playlist > a > button{
+.ps{
   height: 110px;
   width: 300px;
   font-size: 35px;
@@ -276,7 +285,7 @@ height: 650px;
   margin: 3px;
 }
 
-.playlist > a > button:hover{
+.ps:hover{
   border: 2px solid #aaa;
 }
 
