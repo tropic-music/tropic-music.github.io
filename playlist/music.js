@@ -23,22 +23,22 @@ jQuery(function ($) {
             tracks = [{
                 "track": 1,
                 "name": "Lil nas x ft Jack Harlow - INDUSTRY BABY",
-                "duration": "2:55",
+                "duration": "3:24",
                 "file": "Lil nas x ft Jack Harlow - INDUSTRY BABY"
             }, {
                 "track": 2,
                 "name": "Blackbear - Idfc (Tarro Remix)",
-                "duration": "2:35",
+                "duration": "3:57",
                 "file": "Blackbear - Idfc (Tarro Remix)"
             }, {
                 "track": 3,
                 "name": "Masked Wolf - Astronaut In The Ocean",
-                "duration": "3:30",
+                "duration": "2:11",
                 "file": "Masked Wolf - Astronaut In The Ocean"
             }, {
                 "track": 4,
                 "name": "Petit Biscuit - Sunset Lover",
-                "duration": "3:07",
+                "duration": "3:25",
                 "file": "Petit Biscuit - Sunset Lover"
             }],
             buildPlaylist = $.each(tracks, function(key, value) {
