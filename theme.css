@@ -207,7 +207,6 @@ h6{
 }
 .addp{
   background: #666;
-  float: left;
   width: 200px;
   height: 200px;
   color: #fff;
@@ -262,6 +261,11 @@ top: 210px;
 .playlist{
 height: 650px;
 }
+.vp{
+   width: 200px;
+  height: 200px;
+}
+    
 .playlist > a > button{
   height: 110px;
   width: 300px;
