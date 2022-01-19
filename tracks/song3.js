@@ -22,9 +22,9 @@ jQuery(function ($) {
             extension = '',
             tracks = [{
                 "track": 1,
-                "name": "Feder ft Ofenbach - Call me papi",
-                "duration": "2:20",
-                "file": "Feder & Ofenbach – Call Me Papi"
+                "name": "Glass animals - Heat Waves",
+                "duration": "3:25",
+                "file": "Glass animals - Heat Waves"
             }],
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,
