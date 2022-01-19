@@ -22,9 +22,9 @@ jQuery(function ($) {
             extension = '',
             tracks = [{
                 "track": 1,
-                "name": "The weeknd ft Swedish House Mafia - Moth To a Flame",
-                "duration": "3:36",
-                "file": "The weeknd x Swedish House Mafia - Moth To a Flame"
+                "name": "Imagine dragons - Enemy",
+                "duration": "2:42",
+                "file": "Imagine dragons - Enemy"
             }],
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,
