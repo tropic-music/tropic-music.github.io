@@ -22,31 +22,46 @@ jQuery(function ($) {
             extension = '',
             tracks = [{
                 "track": 1,
+                "name": "Kungs - Lipstick",
+                "duration": "2:51",
+                "file": "Kungs - Lipstick"
+            }, {
+                "track": 2,
+                "name": "Robin Schul ft Dennis Lloyd - Young Right Now",
+                "duration": "2:53",
+                "file": "Robin Schulz x Dennis Lloyd - Young Right Now"
+            }, {
+                "track": 3,
+                "name": "Message In A Bottle (Colorblast Version)",
+                "duration": "2:31",
+                "file": "Message In A Bottle (Colorblast Version)"
+            }, {
+                "track": 4,
                 "name": "Imagine dragons - Enemy",
                 "duration": "2:42",
                 "file": "Imagine dragons - Enemy"
             }, {
-                "track": 2,
+                "track": 5,
                 "name": "Kungs - Regarde-moi",
                 "duration": "2:51",
                 "file": "Kungs - Regarde-moi"
             },  {
-                "track": 3,
+                "track": 6,
                 "name": "OrelSan - Jour meilleur",
                 "duration": "3:36",
                 "file": "OrelSan - Jour meilleur"
             }, {
-                "track": 4,
+                "track": 7,
                 "name": "Ed Sheeran ft Elton John - Merry Christmas",
                 "duration": "3:18",
                 "file": "Ed Sheeran ft Elton John - Merry Christmas"
             }, {
-                "track": 5,
+                "track": 8,
                 "name": "Gregory Porter - Dry Bones",
                 "duration": "2:55",
                 "file": "Gregory Porter - Dry Bones"
             }, {
-                "track": 6,
+                "track": 9,
                 "name": "The weeknd ft Swedish House Mafia - Moth To a Flame",
                 "duration": "3:36",
                 "file": "The weeknd x Swedish House Mafia - Moth To a Flame"
