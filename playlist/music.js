@@ -27,7 +27,7 @@ jQuery(function ($) {
                 "file": "Lil nas x ft Jack Harlow - INDUSTRY BABY"
             }, {
                 "track": 2,
-                "name": "Blackbear - Idfc (Tarro Remix)",
+                "name": "Blackbear - Idfc (Tarro Remix) (NCS)",
                 "duration": "3:57",
                 "file": "Blackbear - Idfc (Tarro Remix)"
             }, {
