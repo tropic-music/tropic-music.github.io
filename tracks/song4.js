@@ -24,7 +24,7 @@ jQuery(function ($) {
                 "track": 1,
                 "name": "Kungs - Lipstick",
                 "duration": "2:51",
-                "file": "Kungs - Lipsticks"
+                "file": "Kungs - Lipstick"
             }],
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,
