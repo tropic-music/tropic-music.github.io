@@ -22,9 +22,9 @@ jQuery(function ($) {
             extension = '',
             tracks = [{
                 "track": 1,
-                "name": "Imagine Dragons - Wrecked",
-                "duration": "3:30",
-                "file": "Imagine Dragons - Wrecked"
+                "name": "Robin Schulz x Dennis Lloyd - Young Right Now",
+                "duration": "2:53",
+                "file": "Robin Schulz x Dennis Lloyd - Young Right Now"
             }],
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,
