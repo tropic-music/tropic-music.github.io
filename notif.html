@@ -1,0 +1,21 @@
+<body>
+  <script>
+function showNotification() {
+  const notification = new Notification("New message from Test", {
+    body: "hey mate, how are ya? You want to catch up soon?",
+    icon: "https://youtube.local:17479/assats/dcode.png"
+  });
+}
+
+    console.log(Notification.permission);
+
+    if (Notification.permission == "granted") {
+      showNotification();
+  }else if (Notification.permission !== "denied") {
+    Notification.requestPermission().then(permission => {
+      if (permission === "granted")
+showNotification();
+    });
+  }
+  </script>
+</body>
