@@ -123,7 +123,7 @@ border-radius: 50px;
     left: 130px;
     top: 70px;
     box-shadow: 2px 2px 12px #aaa;
-    z-index: 1;
+    z-index: 2;
     overflow-x: hidden;
     overflow-y: auto;
   }
