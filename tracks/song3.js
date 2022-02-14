@@ -22,9 +22,9 @@ jQuery(function ($) {
             extension = '',
             tracks = [{
                 "track": 1,
-                "name": "Glass animals - Heat Waves",
-                "duration": "3:25",
-                "file": "Glass animals - Heat Waves"
+                "name": " Martin Garix - Won’t Let You Go",
+                "duration": "3:27",
+                "file": " Martin Garix - Won’t Let You Go"
             }],
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,
