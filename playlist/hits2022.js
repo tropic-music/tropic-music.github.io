@@ -22,46 +22,66 @@ jQuery(function ($) {
             extension = '',
             tracks = [{
                 "track": 1,
+                "name": "Martin Garix ft Matisse & Sadko et John Martin - Won’t Let You Go",
+                "duration": "3:27",
+                "file": "Martin Garix - Won’t Let You Go"
+            }, {
+                "track": 2,
+                "name": "Mc Fly & Carlito - Infini +1000",
+                "duration": "2:44",
+                "file": "Mc Fly & Carlito - Infini +1000"
+            }, {
+                "track": 3,
+                "name": "Angèle ft Damso - Démons",
+                "duration": "3:20",
+                "file": "Angèle ft Damso - Démons"
+            }, {
+                "track": 4,
+                "name": "The Weeknd - Sacrifice",
+                "duration": "3:05",
+                "file": "The Weeknd - Sacrifice"
+            }, {
+                "track": 5,
                 "name": "Kungs - Lipstick",
                 "duration": "2:51",
                 "file": "Kungs - Lipstick"
             }, {
-                "track": 2,
+                "track": 6,
                 "name": "Robin Schul ft Dennis Lloyd - Young Right Now",
                 "duration": "2:53",
                 "file": "Robin Schulz x Dennis Lloyd - Young Right Now"
             }, {
-                "track": 3,
+                "track": 7,
                 "name": "Message In A Bottle (Colorblast Version)",
                 "duration": "2:31",
                 "file": "Message In A Bottle (Colorblast Version)"
             }, {
-                "track": 4,
+                "track": 8,
                 "name": "Imagine dragons - Enemy",
                 "duration": "2:42",
                 "file": "Imagine dragons - Enemy"
             }, {
-                "track": 5,
+                "track": 9,
                 "name": "Kungs - Regarde-moi",
                 "duration": "2:51",
                 "file": "Kungs - Regarde-moi"
             },  {
-                "track": 6,
+                "track": 10,
                 "name": "OrelSan - Jour meilleur",
                 "duration": "3:36",
                 "file": "OrelSan - Jour meilleur"
             }, {
-                "track": 7,
+                "track": 11,
                 "name": "Ed Sheeran ft Elton John - Merry Christmas",
                 "duration": "3:18",
                 "file": "Ed Sheeran ft Elton John - Merry Christmas"
             }, {
-                "track": 8,
+                "track": 12,
                 "name": "Gregory Porter - Dry Bones",
                 "duration": "2:55",
                 "file": "Gregory Porter - Dry Bones"
             }, {
-                "track": 9,
+                "track": 13,
                 "name": "The weeknd ft Swedish House Mafia - Moth To a Flame",
                 "duration": "3:36",
                 "file": "The weeknd x Swedish House Mafia - Moth To a Flame"
