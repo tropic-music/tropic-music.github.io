@@ -22,14 +22,14 @@ jQuery(function ($) {
             extension = '',
             tracks = [{
                 "track": 1,
-                "name": "Stromae - L’enfer",
-                "duration": "2:52",
-                "file": "Stromae - L’enfer"
-            }, {
-                "track": 2,
                 "name": "Naps ft GIMS - Best life",
                 "duration": "3:07",
                 "file": "Naps ft GIMS - Best life"
+            }, {
+                "track": 2,
+                "name": "Yanns - Clic clic pan pan",
+                "duration": "2:34",
+                "file": "Yanns - Clic clic pan pan"
             }, {
                 "track": 3,
                 "name": "Nihno - VVS",
@@ -42,9 +42,9 @@ jQuery(function ($) {
                 "file": "love nwantiti ft Dj Yo & AX EL"
             }, {
                 "track": 5,
-                "name": "Trei Degete - Time Time",
-                "duration": "2:55",
-                "file": "Trei Degete - Time Time"
+                "name": "Naps - La kiffance",
+                "duration": "2:34",
+                "file": "Naps - La kiffance"
             }],
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,
