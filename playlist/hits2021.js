@@ -22,96 +22,106 @@ jQuery(function ($) {
             extension = '',
             tracks = [{
                 "track": 1,
+                "name": "Soprano - Dingue",
+                "duration": "3:09",
+                "file": "Soprano - Dingue"
+            }, {
+                "track": 2,
+                "name": "Grand corp malade ft kimberose - Nos plus belles années",
+                "duration": "3:27",
+                "file": "TGrand corp malade & kimberose - Nos plus belles années"
+            }, {
+                "track": 3,
                 "name": "Trei degete - Time time",
                 "duration": "2:55",
                 "file": "Trei Degete - Time Time"
             }, {
-                "track": 2,
+                "track": 4,
                 "name": "Glass animals - Heat Waves",
                 "duration": "3:25",
                 "file": "Glass animals - Heat Waves"
             }, {
-                "track": 3,
+                "track": 5,
                 "name": "Lil nas x ft Jack Harlow - INDUSTRY BABY",
                 "duration": "3:24",
                 "file": "Lil nas x ft Jack Harlow - INDUSTRY BABY"
             }, {
-                "track": 4,
+                "track": 6,
                 "name": "VITAA & SLIMANE - XY",
                 "duration": "2:35",
                 "file": "VITAA & SLIMANE - XY"
             }, {
-                "track": 5,
+                "track": 7,
                 "name": "Soso Madness - Petrouchka",
                 "duration": "2:58",
                 "file": "Soso Madness - Petrouchka"
             }, {
-                "track": 6,
+                "track": 8,
                 "name": "Imagine Dragons - Wrecked",
                 "duration": "3:30",
                 "file": "Imagine Dragons - Wrecked"
             }, {
-                "track": 7,
+                "track": 9,
                 "name": "Naps ft GIMS - Best life",
                 "duration": "3:07",
                 "file": "Naps ft GIMS - Best life"
             }, {
-                "track": 8,
+                "track": 10,
                 "name": "Ambiance Skandal - Offishal",
                 "duration": "2:32",
                 "file": "Ambiance Skandal - Offishal"
             }, {
-                "track": 9,
+                "track": 11,
                 "name": "OrelSan - L'odeur de l'essence",
                 "duration": "3:55",
                 "file": "OrelSan - L'odeur de l'essence"
             }, {
-                "track": 10,
+                "track": 12,
                 "name": "Stromae - Santé",
                 "duration": "3:25",
                 "file": "Stromae - Santé"
             }, {
-                "track": 11,
+                "track": 13,
                 "name": "Angèle - Bruxelles je t’aime",
                 "duration": "3:26",
                 "file": "Angèle Bruxelles je t’aime"
             }, {
-                "track": 12,
+                "track": 14,
                 "name": "Feder ft Ofenbach – Call Me Papi",
                 "duration": "2:20",
                 "file": "Feder & Ofenbach – Call Me Papi"
             }, {
-                "track": 13,
+                "track": 15,
                 "name": "Gazo x Ninho - Mauvais 2X",
                 "duration": "3:43",
                 "file": "GAZO x NINHO - MAUVAIS 2X"
             }, {
-                "track": 14,
+                "track": 16,
                 "name": "Ckay - Love nwantiti",
                 "duration": "3:03",
                 "file": "love nwantiti ft Dj Yo & AX EL"
             }, {
-                "track": 15,
+                "track": 17,
                 "name": "Squid Kids – Red Light, Green Light",
                 "duration": "2:11",
                 "file": "Squid Kids – Red Light, Green Light"
             }, {
-                "track": 16,
+                "track": 18,
                 "name": "Coldplay X BTS - My Universe",
                 "duration": "3:07",
                 "file": "Coldplay X BTS - My Universe"
             }, {
-                "track": 17,
+                "track": 19,
                 "name": "Ed Sheeran - Shivers",
                 "duration": "3:21",
                 "file": "Ed Sheeran - Shivers"
             }, {
-                "track": 18,
+                "track": 20,
                 "name": "Dopamine ft Eyelar - Purple Disco Machine",
                 "duration": "3:24",
                 "file": "Purple Disco Machine - Dopamine ft. Eyelar"
             }, {
-                "track": 19,
+                "track": 21,
                 "name": "Farruko - Pepas",
                 "duration": "3:33",
                 "file": "Farruko - Pepas"
