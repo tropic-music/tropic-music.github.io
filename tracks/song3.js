@@ -22,9 +22,9 @@ jQuery(function ($) {
             extension = '',
             tracks = [{
                 "track": 1,
-                "name": " Martin Garix - Won’t Let You Go",
-                "duration": "3:27",
-                "file": " Martin Garix - Won’t Let You Go"
+                "name": "Mc Fly & Carlito - Infini +1000",
+                "duration": "2:43",
+                "file": "Mc Fly & Carlito - Infini +1000"
             }],
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,
