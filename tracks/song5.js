@@ -22,9 +22,9 @@ jQuery(function ($) {
             extension = '',
             tracks = [{
                 "track": 1,
-                "name": "Gregory Porter - Dry Bones",
-                "duration": "2:55",
-                "file": "Gregory Porter - Dry Bones"
+                "name": "Mc Fly & Carlito - Infini +1000",
+                "duration": "2:43",
+                "file": "Mc Fly & Carlito - Infini +1000"
             }],
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,
