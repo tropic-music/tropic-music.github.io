@@ -24,7 +24,7 @@ jQuery(function ($) {
                 "track": 1,
                 "name": "Charlie Puth - Light Switch",
                 "duration": "2:58",
-                "file": "Charlie Puth - Light Switcho"
+                "file": "Charlie Puth - Light Switch"
             }, {
                 "track": 2,
                 "name": "Martin Garix ft Matisse & Sadko et John Martin - Won’t Let You Go",
