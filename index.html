@@ -34,6 +34,21 @@
         </li>
       </ul>
   </menu>
+  <div id="beta" class="beta">
+    <h3 style="color: #eee; padding-top: 8px; padding-bottom: 8px;">De nouvelle fonctionnalité arrive sur Tropic music</h3><a href="/beta/"><button class="btnbeta">Voir la Beta</button></a>
+    <h1 class="material-icons" style="position: absolute; right: 10px; top: 7px; cursor: pointer;" onclick="beta()">highlight_off</h1>
+  </div>
+   <style>
+     .beta{
+      background-color: #666; color: #fff; position:absolute; top: 37px; width: 100%; z-index: 2;
+     }
+     .btnbeta{
+       background-color: #1473e6; color: #fff; height: 32px; width: 90px; border: transparent 1px solid; border-radius: 50px; position: absolute; left: 450px; top:3px; font-weight: 800;}
+     .btnbeta:hover{
+       border: #eee 2px solid;
+     }
+   </style>
+  
   <h1 style="z-index: 0;">.</h1>
 </head>
 
@@ -159,5 +174,15 @@
 
 <!--Contenu page-->
 <script src="script.js"></script>
+  <script>
+  function beta() {
+var div = document.getElementById("beta");
+if (div.style.display === "none") {
+div.style.display = "block";
+} else {
+div.style.display = "none";
+}
+}
+</script>
 </body>
 </html>
