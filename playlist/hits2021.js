@@ -72,56 +72,51 @@ jQuery(function ($) {
                 "file": "Ambiance Skandal - Offishal"
             }, {
                 "track": 11,
-                "name": "OrelSan - L'odeur de l'essence",
-                "duration": "3:55",
-                "file": "OrelSan - L'odeur de l'essence"
-            }, {
-                "track": 12,
                 "name": "Stromae - Santé",
                 "duration": "3:25",
                 "file": "Stromae - Santé"
             }, {
-                "track": 13,
+                "track": 12,
                 "name": "Angèle - Bruxelles je t’aime",
                 "duration": "3:26",
                 "file": "Angèle Bruxelles je t’aime"
             }, {
-                "track": 14,
+                "track": 13,
                 "name": "Feder ft Ofenbach – Call Me Papi",
                 "duration": "2:20",
                 "file": "Feder & Ofenbach – Call Me Papi"
             }, {
-                "track": 15,
+                "track": 14,
                 "name": "Gazo x Ninho - Mauvais 2X",
                 "duration": "3:43",
                 "file": "GAZO x NINHO - MAUVAIS 2X"
             }, {
-                "track": 16,
+                "track": 15,
                 "name": "Ckay - Love nwantiti",
                 "duration": "3:03",
                 "file": "love nwantiti ft Dj Yo & AX EL"
             }, {
-                "track": 17,
+                "track": 16,
                 "name": "Squid Kids – Red Light, Green Light",
                 "duration": "2:11",
                 "file": "Squid Kids – Red Light, Green Light"
             }, {
-                "track": 18,
+                "track": 17,
                 "name": "Coldplay X BTS - My Universe",
                 "duration": "3:07",
                 "file": "Coldplay X BTS - My Universe"
             }, {
-                "track": 19,
+                "track": 18,
                 "name": "Ed Sheeran - Shivers",
                 "duration": "3:21",
                 "file": "Ed Sheeran - Shivers"
             }, {
-                "track": 20,
+                "track": 19,
                 "name": "Dopamine ft Eyelar - Purple Disco Machine",
                 "duration": "3:24",
                 "file": "Purple Disco Machine - Dopamine ft. Eyelar"
             }, {
-                "track": 21,
+                "track": 20,
                 "name": "Farruko - Pepas",
                 "duration": "3:33",
                 "file": "Farruko - Pepas"
