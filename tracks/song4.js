@@ -18,7 +18,7 @@ jQuery(function ($) {
 
         var index = 0,
             playing = false,
-            mediaPath = 'https://tropic-music.github.io/track/',
+            mediaPath = 'https://tropic-music.github.io/hits2022/',
             extension = '',
             tracks = [{
                 "track": 1,
