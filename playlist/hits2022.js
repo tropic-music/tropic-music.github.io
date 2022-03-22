@@ -28,7 +28,7 @@ jQuery(function ($) {
             }, {
                 "track": 2,
                 "name": "Adèle - Oh My God",
-                "duration": "3:40",
+                "duration": "3:41",
                 "file": "Adèle - Oh My God"
             }, {
                 "track": 3,
