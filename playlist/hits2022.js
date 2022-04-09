@@ -50,31 +50,31 @@ jQuery(function ($) {
                 "name": "Adèle - Oh My God",
                 "duration": "3:41",
                 "file": "Adèle - Oh My God"
+            }, 
+                "track": 7
+                "name": "Yanns - Clic clic pan pan",
+                "duration": "2:34",
+                "file": "Yanns - Clic clic pan pan"
             }, {
-                "track": 7,
+                "track": 8
                 "name": "Orelsan - La Quête",
                 "duration": "3:44",
                 "file": "Orelsan - La Quête"
             }, {
-                "track": 8,
+                "track": 9
                 "name": "Ridsa - Santa Maria",
                 "duration": "2:56",
                 "file": "Ridsa - Santa Maria"
             }, {
-                "track": 9,
+                "track": 10
                 "name": "Ownboss ft Sevek - Move Your Body",
                 "duration": "2:18",
                 "file": "Ownboss ft Sevek - Move Your Body"
             }, {
-                "track": 10,
+                "track": 11
                 "name": "Keen'v - Affaire classée",
                 "duration": "2:42",
                 "file": "Keen'v - Affaire classée"
-            }, {
-                "track": 11,
-                "name": "Goya Menor & Mektunez - Ameno Amapiano (Remix)",
-                "duration": "3:34",
-                "file": "Goya Menor & Mektunez - Ameno Amapiano Remix"
             }, {
                 "track": 12,
                 "name": "Inna ft Sean Paul - UP",
