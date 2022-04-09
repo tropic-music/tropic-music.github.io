@@ -50,7 +50,7 @@ jQuery(function ($) {
                 "name": "Adèle - Oh My God",
                 "duration": "3:41",
                 "file": "Adèle - Oh My God"
-            }, 
+            }, {
                 "track": 7,
                 "name": "Yanns - Clic clic pan pan",
                 "duration": "2:34",
