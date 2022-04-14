@@ -22,146 +22,156 @@ jQuery(function ($) {
             extension = '',
             tracks = [{
                 "track": 1,
+                "name": "Harry Style - As It Was",
+                "duration": "2:37",
+                "file": "Harry Style - As It Was"
+            }, {
+                "track": 2,
+                "name": "Purple disco machine - In The Dark",
+                "duration": "2:56",
+                "file": "Purple disco machine - In The Dark"
+            }, {
+                "track": 3,
                 "name": "Feder - Strangers",
                 "duration": "2:30",
                 "file": "Feder - Strangers"
             }, {
-                "track": 2,
+                "track": 4,
                 "name": "Kikesa ft Soprano - Tout ira bien",
                 "duration": "2:30",
                 "file": "Kikesa ft Soprano - Tout ira bien"
             }, {
-                "track": 3,
+                "track": 5,
                 "name": "Fireboy DML ft Ed Sheeran - Peru",
                 "duration": "2:30",
                 "file": "Fireboy DML ft Ed Sheeran - Peru"
             }, {
-                "track": 4,
+                "track": 6,
                 "name": "Willy Wiliams - Trompeta",
                 "duration": "2:29",
                 "file": "Willy Wiliams - Trompeta"
             }, {
-                "track": 5,
+                "track": 7,
                 "name": "Soprano - NKOTB",
                 "duration": "3:30",
                 "file": "Soprano - NKOTB"
             }, {
-                "track": 6,
+                "track": 8,
                 "name": "Adèle - Oh My God",
                 "duration": "3:41",
                 "file": "Adèle - Oh My God"
             }, {
-                "track": 7,
+                "track": 9,
                 "name": "Yanns - Clic clic pan pan",
                 "duration": "2:34",
                 "file": "Yanns - Clic clic pan pan"
             }, {
-                "track": 8,
+                "track": 10,
                 "name": "Orelsan - La Quête",
                 "duration": "3:44",
                 "file": "Orelsan - La Quête"
             }, {
-                "track": 9,
+                "track": 11,
                 "name": "Ridsa - Santa Maria",
                 "duration": "2:56",
                 "file": "Ridsa - Santa Maria"
             }, {
-                "track": 10,
+                "track": 12,
                 "name": "Ownboss ft Sevek - Move Your Body",
                 "duration": "2:18",
                 "file": "Ownboss ft Sevek - Move Your Body"
             }, {
-                "track": 11,
+                "track": 13,
                 "name": "Keen'v - Affaire classée",
                 "duration": "2:42",
                 "file": "Keen'v - Affaire classée"
             }, {
-                "track": 12,
+                "track": 14,
                 "name": "Inna ft Sean Paul - UP",
                 "duration": "2:27",
                 "file": "Inna ft Sean Paul - UP"
             }, {
-                "track": 13,
+                "track": 15,
                 "name": "Tayc - Dodo",
                 "duration": "2:54",
                 "file": "Tayc - Dodo"
             }, {
-                "track": 14,
+                "track": 16,
                 "name": "Pepas ft DJ Adoni - El Incomprendido",
                 "duration": "3:45",
                 "file": "Pepas ft DJ Adoni - El Incomprendido"
             }, {
-                "track": 15,
+                "track": 17,
                 "name": "CKay - Emiliana",
                 "duration": "2:30",
                 "file": "CKay - Emiliana"
             }, {
-                "track": 16,
+                "track": 18,
                 "name": "Soolking - Suavemente",
                 "duration": "2:30",
                 "file": "Soolking - Suavemente"
             }, {
-                "track": 17,
+                "track": 19,
                 "name": "Kungs - Clap Your Hands",
                 "duration": "2:50",
                 "file": "Kungs - Clap Your Hands"
             }, {
-                "track": 18,
+                "track": 20,
                 "name": "Charlie Puth - Light Switch",
                 "duration": "2:58",
                 "file": "Charlie Puth - Light Switch"
             }, {
-                "track": 19,
+                "track": 21,
                 "name": "Martin Garix ft Matisse & Sadko et John Martin - Won’t Let You Go",
                 "duration": "3:27",
                 "file": "Martin Garix - Won’t Let You Go"
             }, {
-                "track": 20,
+                "track": 22,
                 "name": "Mc Fly & Carlito - Infini +1000",
                 "duration": "2:44",
                 "file": "Mc Fly & Carlito - Infini +1000"
             }, {
-                "track": 21,
+                "track": 23,
                 "name": "Angèle ft Damso - Démons",
                 "duration": "3:20",
                 "file": "Angèle ft Damso - Démons"
             }, {
-                "track": 22,
+                "track": 24,
                 "name": "The Weeknd - Sacrifice",
                 "duration": "3:05",
                 "file": "The Weeknd - Sacrifice"
             }, {
-                "track": 23,
+                "track": 25,
                 "name": "Kungs - Lipstick",
                 "duration": "2:51",
                 "file": "Kungs - Lipstick"
             }, {
-                "track": 24,
+                "track": 26,
                 "name": "Robin Schul ft Dennis Lloyd - Young Right Now",
                 "duration": "2:53",
                 "file": "Robin Schulz x Dennis Lloyd - Young Right Now"
             }, {
-                "track": 25,
+                "track": 27,
                 "name": "Message In A Bottle (Colorblast Version)",
                 "duration": "2:31",
                 "file": "Message In A Bottle (Colorblast Version)"
             }, {
-                "track": 26,
+                "track": 28,
                 "name": "Imagine dragons - Enemy",
                 "duration": "2:42",
                 "file": "Imagine dragons - Enemy"
             }, {
-                "track": 27,
+                "track": 29,
                 "name": "OrelSan - Jour meilleur",
                 "duration": "3:36",
                 "file": "OrelSan - Jour meilleur"
             }, {
-                "track": 28,
+                "track": 30,
                 "name": "Gregory Porter - Dry Bones",
                 "duration": "2:55",
                 "file": "Gregory Porter - Dry Bones"
             }, {
-                "track": 29,
+                "track": 31,
                 "name": "The weeknd ft Swedish House Mafia - Moth To a Flame",
                 "duration": "3:36",
                 "file": "The weeknd x Swedish House Mafia - Moth To a Flame"
