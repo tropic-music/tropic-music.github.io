@@ -101,6 +101,7 @@ width:70%;
 }
 
 #plList li {
+border-radius: 10px;
 cursor:pointer;
 display:block;
 margin:0;
@@ -108,7 +109,7 @@ padding:21px 0;
 }
 
 #plList li:hover {
-background-color:rgba(0, 0, 0, .1);
+background-color:rgba(75, 75, 75, 0.8);
 }
 
 .plItem {
@@ -139,7 +140,7 @@ top:0;
 
 .plSel,
 .plSel:hover {
-background-color:rgba(0, 0, 0, .1);
+  background: linear-gradient(to right, #ffa600 20%, #f003d0 100%);
 color:#fff;
 cursor:default !important;
 }

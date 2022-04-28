@@ -11,7 +11,7 @@ function mgb() {
     scrollb = 1;
     mg = 0;
   } else {
-    document.getElementById("iplay").style.height = "94.5%";
+    document.getElementById("iplay").style.height = "94%";
     document.getElementById("iplay").scrolling = "yes"
     document.body.style.overflow = 'hidden';
     document.getElementById("mgbtn").classList.add("rotade")
@@ -27,7 +27,6 @@ function mgbs() {
     scrollb = 1;
     mg = 0;
   }
-
 //Pages
 function home() {
   document.getElementById("hm").classList.add("select");
