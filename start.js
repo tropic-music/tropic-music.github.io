@@ -1,4 +1,4 @@
-const switchBtn = document.querySelector('input[type="checkbox"]')
+const switchBtn = document.querySelector('#checkbox')
 const defaultTheme = window.matchMedia("(prefers-color-scheme :yes)");
 let currentstart = localStorage.getItem('start')
 switchBtn.addEventListener('change', switchTheme)

@@ -1,0 +1,153 @@
+/*Smartphone*/
+@media screen and (max-width: 780px){
+*::-webkit-scrollbar{
+height: 0px;
+}
+menu{
+padding-top: 0px;
+padding-bottom: 0px;
+}
+menu label{
+display: block;
+}
+menu ul{
+margin-top: 40px;
+display: none;
+background-color: #555;
+border-top: #ddd 1px solid;
+}
+#bar{display: block;}
+#mbl[type=checkbox]:checked + ul{
+display: flex;
+flex-flow:column-reverse;
+}
+menu ul li{
+margin: 5px 0px 8px;
+width: max-content;
+}
+#spacei{
+top: 1575px;
+}
+#mgbtn{
+height: 35px;
+width: 35px;
+bottom: 9%;
+right: 5px;
+}
+.rotade{
+top: 15%;
+}
+
+.new{
+height: 350px;
+}
+.elemw{
+width: 50%;
+}
+.n2{
+left: 50%;
+}
+.n3{
+left: 0%;
+top: 210px;
+}
+.n4{
+left: 50%;
+top: 210px;
+}
+.n5{
+left: 0%;
+top: 300px;
+}
+.n6{
+left: 50%;
+top: 300px;
+}
+
+.spacep{
+padding-top: 50px;
+}
+.playlist{
+height: 510px;
+}
+.ps{
+height: 117px;
+width: 117px;
+font-size: 29px;
+}
+.vp{
+width: 140px;
+height: 140px;
+}
+.addp{
+width: 140px;
+height: 140px;
+}
+
+.radio{font-size: 21px;}
+.elemr > a > img , button{
+height: 135px;
+width: 135px;
+}
+.r2{
+left: 50%;
+}
+.r3{
+left: 1%;
+top: 1235px;
+}
+.r4{
+left: 50%;
+top: 1235px;
+}
+.r5{
+left: 1%;
+top: 1430px;
+}
+.r6{
+left: 50%;
+top: 1430px;
+padding-bottom: 10px;
+}
+}
+
+/*Tablette*/
+@media screen and (min-width: 781px) and (max-width: 1050px){
+#mgbtn{
+height: 35px;
+width: 35px;
+bottom: 9%;
+right: 5px;
+}
+.rotade{
+top: 15%;
+}
+
+.new{
+height: 240px;
+}
+.spacep{
+padding-top: 45px;
+}
+.playlist{
+height: 585px;
+}
+.r2{
+left: 26%;
+}
+.r3{
+left: 51%;
+}
+.r4{
+left: 76%;
+}
+.r5{
+left: 0%;
+top: 1280px;
+}
+.r6{
+left: 26%;
+top: 1280px;
+padding-bottom: 10px;
+}
+}
