@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Tropic Music</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta data-hid="mobile-web-app-capable" name="mobile-web-app-capable" content="yes">
+  <meta data-hid="apple-mobile-web-app-title" name="apple-mobile-web-app-title" content="Tropic music">
+  <meta name="theme-color" content="#7FFFD4"/>
+  <meta name="google-site-verification" content="bXDv9t2XkUqdLBdFxw2YnOTsliacW1-IungXeEUM_Fw" />
+  <meta name="description" content="Tropic Music est une platforme de streaming audio. Téchacharger, écouter gratuitement vos chanson préférer et vos webradio"/>
+  <meta name="keywords" content="tropic music, tropic-music, musique, gratuit, webradio, free, music, hits, 2021, 2022, france, top">
+  <meta name="title" content="Tropic Music">
+  <meta property="og:title" content="Tropic Music">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tropic-music.github.io">
+  <meta property="og:image" content="https://tropic-groupe.github.io/files/tropic-music.png">
+  <meta property="og:description" content="Tropic Music est une platforme de streaming audio. Téchacharger, écouter gratuitement vos chanson préférer et vos webradio">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Tropic Music">
+  <meta name="twitter:description" content="Tropic Music est une platforme de streaming audio. Téchacharger, écouter gratuitement vos chanson préférer et vos webradio">
+  <meta name="twitter:image" content="https://tropic-groupe.github.io/files/tropic-music.png">
+  <link rel="icon" type="image/png" href="https://tropic-groupe.github.io/files/tropic-music-beta.png"/>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="mobile.css">
+  <script>
+    function setCookie(cname,cvalue,exdays) {
+const d = new Date();
+  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+  let expires = "expires=" + d.toUTCString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function getCookie(cname) {
+  let name = cname + "=";
+  let decodedCookie = decodeURIComponent(document.cookie);
+  let ca = decodedCookie.split(';');
+  for(let i = 0; i < ca.length; i++) {
+    let c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+
+function checkCookie() {
+  let infdate = getCookie("09/03/2022");
+  if (infdate != "") {
+  } else {
+     infdate = ("1");
+     if (infdate != "")
+     function showNotification() {
+  const notification = new Notification("Tropic music beta", {
+    body: "Nouveau titre : Soolking - Suavemente",
+    icon: "https://tropic-groupe.github.io/files/tropic-music-beta.png"
+  });
+  }
+
+    console.log(Notification.permission);
+
+    if (Notification.permission == "granted") {
+      showNotification();
+      setCookie("09/03/2022", infdate, 20);
+  }else if (Notification.permission !== "denied") {
+    Notification.requestPermission().then(permission => {
+      if (permission === "granted")
+setCookie("09/03/2022", infdate, 20);
+showNotification();
+    }); }
+  }
+}
+  </script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script>
+    $('.homes').click(function(){
+  if(!$('.homes').parent().hasClass('active'))
+  {
+
+    $(this).parent().stop().addClass('active');
+    setTimeout(function(){  
+
+      $('.homes').parent().removeClass('active'); 
+    }, 300);
+  }
+});
+  </script>  
+
+  <a href="https://tropic-music.github.io/beta/"><h2 style="position: fixed; top: 4px; left: 40px; z-index: 4;" class="adt">Tropic music</h2><img src="https://tropic-groupe.github.io/files/tropic-music-beta.png" height="35px" style="position: fixed; top: 2px; left: 5px; z-index: 4;"></a></div>
+  <menu>
+    <label for="mbl"><i class="fa fa-bars" id="bar"></i></label>
+    <input type="checkbox" id="mbl" role="button">
+      <ul>
+          <li><a onclick="about()" id="ab"><i class="material-icons">info</i>A propos</a></li>
+          <li><a onclick="add()" id="im"><i class="material-icons">add</i>Importer</a></li>
+          <li><a onclick="save()" id="dw"><i class="material-icons">download</i>Télécharger</a></li>
+          <li onclick="home()" id="hm" class="select"><a><i class="material-icons i-home">home</i>Accueil</a></li>
+        </li>
+      </ul>
+  </menu>
+
+   <style>
+     .beta{
+      background-color: #666; color: #fff; position:absolute; top: 37px; width: 100%; z-index: 2;
+     }
+     .btnbeta{
+       background-color: #1473e6; color: #fff; height: 30px; width: 90px; border: transparent 1px solid; border-radius: 50px; position: absolute; left: 450px; top:4px; font-weight: 800;}
+     .btnbeta:hover{
+       border: #eee 2px solid;
+     }
+   </style>
+  <h2 style="z-index: -1;">.</h2>
+</head>
+
+<body>
+  <!--Popup-->
+  <div id="start"><div class="info">
+    <div class="popt"><h1>Tropic Music : Info Droit Auteur</h1></div>  
+  <strong><p style="font-size: 23px;">Info : Avant de télécharger un morceaux sachez que la plus par des musiques que vous trouverez sur notre site sont Copyright et donc vous ne pouvez donc pas les réutiliser librement (vous ne pouvez que les utiliser à usage personnel, vous ne pouvez pas les utiliser a but commercial,...). Les musiques nom copyright on dans leurs nom (NCS)</p></strong>
+  
+  <p style="position: absolute; bottom: 5px; left: 5px; font-size: 18px;">Ne plus afficher :</p><input type="checkbox" id="checkbox" style="position: absolute; bottom: 13px; left: 150px;"/>
+  <h1 class="material-icons md-25 popc" onclick="start()">highlight_off</h1></div></div>
+  <script src="./start.js"></script>
+
+
+  <div id="save"><div class="info">
+    <div class="popt"><h1>Télécharger des musiques</h1></div>  
+  <center>
+  <p>Avant de télécharger une/des musique(s) sachez que la plus par des musiques que vous trouverez sur notre site sont Copyright et donc soumis à des droit d'auteur vous ne pouvez donc pas les réutiliser librement (Vous ne pouvez les utiliser qu'à usage personnel, vous ne pouvez pas les utiliser a but commercial ou autre. les musique non copyright on dans leurs nom (NCS).</p>
+  <p>Pour télécharger une/des musique(s) vous devez suivre le parcour suivent</p>
+  </center>
+  <h3>Edge, Chrome, Safari, Firefox, ...</h3>
+  <img src="img/Webkit.gif" width="55%" style="border-radius: 10px">
+  </div></div>
+
+  <div id="add"><div class="info">
+    <div class="popt"><h1>Ajouter playlist et radio</h1></div>
+    <h2 class="adt">Ajouter votre playlist :</h2>
+    <p>Une playlist doit contenir minimum 4 musiques</p>
+      <div class="btn"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeKVGSRXHQ6w0fNLSwtUAnLPk0u9JM_4qFOz7uRSk9mLfX1bA/viewform" target="_blank">
+        <label class="add ad source" id="btn"><i>Ajouter votre playlist</i><i class="material-icons md-25">playlist_add</i></label><input type="button" class="hidden-accessible" onclick="capt()">
+        </a></div>
+        <h2 class="adt">Ajouter une radio :</h2>
+        <p>La radio doit avoir un flux audio sur le web (disponible en webradio)</p>
+        <div class="btn"><a href="https://docs.google.com/forms/d/e/1FAIpQLSe0IZs5gNSGnNguSNgTqwi_kUjqPb8sOYPcvVnagI6nA3a0Yw/viewform" target="_blank">
+          <label class="add ad source"id="btn"><i>Ajouter une radio</i><i class="material-icons md-25">radio</i></label><input type="button" class="hidden-accessible" onclick="capt()">
+          </a></div></div></div>
+
+    <div id="about"><div class="info">
+      <div class="popt"><h1>A propos</h1></div>
+      <h2 class="adt">Nous :</h2>
+      <p>Tropic music est une platforme en ligne de streaming musicale. Vous pouvez écouter de la musique, la radio et des télécharger des morceaux. Notre plutforme est 100% gratuite et sans inscription.</p>
+      
+      <h2 class="adt">Condition d'utilisation :</h2>
+      <p>Vous n'avez pas le droit de copier le design du site. Mais vous pouvez télécharger les morceaux disponnible sur le site car ce service et inclut sur la platforme, par contre sachez que ces musique sont pour la plupart soumise à des droit d'auteur, vous ne pourez donc pas les réutiliser librement (notament à but commercial)</p>
+
+      <h2 class="adt">Aider nous :</h2>
+      <p>Ajouter vos playlists et radio sur notre platforme. Aider nous a nous amélioré :</p>
+      <div class="btn"><a href="https://docs.google.com/forms/d/e/1FAIpQLSef56n4_3yhoatq79xQjNPE4Cy3uNxm9DCucj6cREcFISRexw/viewform" target="_blank">
+        <label class="add ad source" id="btn"><i>Aider nous</i><i class="material-icons md-25">help_outline</i></label><input type="button" class="hidden-accessible" onclick="capt()">
+        </a></div>
+      <p>Version du site : Beta V2.0.2</p></div></div>
+
+<!--Music-->
+<section>
+<div>
+  <div>
+      <h5 class="spacen">Nouveautés</h5>
+      <div class="new">
+          <div class="elemw">
+<a href="./tracks/song1.html" target="iframe" onclick="mgbs()"><img src="img/playbtn.png" class="playbtn"><img src="img/song1.png"></a><h6 class="track">Time time</h6><h6 class="author">Trei degete</h6>
+          </div>
+  <div class="elemw n2">
+      <a href="./tracks/song2.html" target="iframe" onclick="mgbs()"><img src="img/playbtn.png" class="playbtn"><img src="img/song2.png" class="imgw"></a><h6 class="track">Enemy</h6><h6 class="author">Imagine Dragons</h6>
+  </div>
+  <div class="elemw n3">
+      <a href="tracks/song3.html" target="iframe" onclick="mgbs()"><img src="img/playbtn.png" class="playbtn"><img src="img/song3.png" class="imgw"></a><h6 class="track">Infini +1000</h6><h6 class="author">Mc Fly & Carlito</h6>
+  </div>
+  <div class="elemw n4">
+      <a href="tracks/song4.html" target="iframe" onclick="mgbs()"><img src="img/playbtn.png" class="playbtn"><img src="img/song4.png" class="imgw"></a><h6 class="track">Lipstick</h6><h6 class="author">Kungs</h6>
+                  </div>
+          <div class="elemw n5">
+              <a href="tracks/song5.html" target="iframe" onclick="mgbs()"><img src="img/playbtn.png" class="playbtn"><img src="img/song5.png" class="imgw"></a><h6 class="track">Won’t Let You Go</h6><h6 class="author">Martin Garix ft Matisse & Sadko et John Martin</h6>
+          </div>
+      <div class="elemw n6">
+          <a href="./tracks/song6.html" target="iframe" onclick="mgbs()"><img src="img/playbtn.png" class="playbtn"><img src="img/song6.png" class="imgw"></a><h6 class="track">Young Right Now</h6><h6 class="author">Robin Schulz ft Dennis Lloyd</h6>
+      </div>
+  </div>
+</div>
+  <div class="playlist">
+      <h5>Playlists</h5>
+      <a href="https://tropic-music.github.io/playlist/hits2022.html" target="iframe" onclick="mgb()"><button class="p1 ps">Hits 2022</button></a>
+      <a href="./playlist/hits2021.html" target="iframe" onclick="mgbs()"><button class="p2 ps">Hits 2021</button></a>
+      <a href="./playlist/top5.html" target="iframe" onclick="mgbs()"><button class="p3 ps">Top 5 France</button></a>
+      <h5 class="spacep">Vos Playlists</h5>
+        <a href="./music.html" target="iframe" onclick="mgbs()"><button class="vp p2">Music</button></a>
+          <a href="https://forms.gle/ZsA3oB2MVv2JRDGk7" target="_blank"><button class="addp material-icons md-25">add</button></a>
+  </div>
+  <div class="radio">
+      <h5>Webradios</h5>
+      <div class="elemr">
+        <a href="./radio/nrj.html" target="iframe" onclick="mgbs()"><img src="img/playbtn.png" class="playbtn"><img src="img/nrj.png"></a><h2 class="radio">NRJ</h2>
+                      </div>
+              <div class="elemr r2">
+                  <a href="./radio/virgin.html" target="iframe" onclick="mgbs()"><img src="img/playbtn.png" class="playbtn"><img src="img/virgin.jpg"></a><h2 class="radio">Virgin Radio</h2>
+              </div>
+              <div class="elemr r3">
+                  <a href="./radio/skyrock.html" target="iframe" onclick="mgbs()"><img src="img/playbtn.png" class="playbtn"><img src="img/skyrock.jpg"></a><h2 class="radio">Skyrock</h2>
+              </div>
+              <div class="elemr r4">
+                  <a href="./radio/cuberadio.html" target="iframe" onclick="mgbs()"><img src="img/playbtn.png" class="playbtn"><img src="img/cuberadio.png"></a><h2 class="radio">Cuberadio</h2>
+              </div>
+              <div class="elemr r5">
+                <a href="./radio/ng-radio.html" target="iframe" onclick="mgbs()"><img src="img/playbtn.png" class="playbtn"><img src="img/ngradio.png"></a><h2 class="radio">NG Radio</h2>
+            </div>
+              <div class="elemr r6">
+                  <a href="https://forms.gle/yVW5oJ5F49x3BC268" target="_blank"><button class="material-icons md-25">add</button></a>
+              </div>
+  </div>
+</div>
+<div id="spacei"><p>.</p></div>
+
+<!-- Player-->
+<button onclick="mgb()" class="material-icons md-40" id="mgbtn" disabled>arrow_drop_up</button>
+<iframe src="" height="0px" name="iframe" scrolling="no" width="100%" class="iplay" id="iplay"></iframe>
+
+<!--Contenu page-->
+<script src="./script.js"></script>
+</body>
+</html>
