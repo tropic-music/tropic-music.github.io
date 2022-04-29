@@ -1,0 +1,13 @@
+{
+    "name": "Tropic music",
+    "icons": [
+        {
+            "src": "/https://tropic-groupe.github.io/files/tropic-music-beta.png",
+            "sizes": "450x450",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#4fa1a7",
+    "background_color": "#444444",
+    "display": "standalone"
+}
