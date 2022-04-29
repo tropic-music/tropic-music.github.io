@@ -25,9 +25,6 @@ menu ul li{
 margin: 5px 0px 8px;
 width: max-content;
 }
-#spacei{
-top: 1650px;
-}
 #mgbtn{
 height: 35px;
 width: 35px;
@@ -68,7 +65,7 @@ top: 300px;
 padding-top: 50px;
 }
 .playlist{
-height: 550px;
+height: 600px;
 }
 .ps{
 height: 117px;
