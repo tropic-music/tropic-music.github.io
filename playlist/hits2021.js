@@ -29,7 +29,7 @@ jQuery(function ($) {
                 "track": 2,
                 "name": "Grand corp malade ft kimberose - Nos plus belles années",
                 "duration": "3:27",
-                "file": "TGrand corp malade & kimberose - Nos plus belles années"
+                "file": "Grand corp malade & kimberose - Nos plus belles années"
             }, {
                 "track": 3,
                 "name": "Trei degete - Time time",
