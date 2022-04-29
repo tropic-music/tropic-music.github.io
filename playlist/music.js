@@ -18,7 +18,7 @@ jQuery(function ($) {
 
         var index = 0,
             playing = false,
-            mediaPath = 'https://tropic-music.github.io/music/',
+            mediaPath = 'https://tropic-groupe.github.io/music/',
             extension = '',
             tracks = [{
                 "track": 1,
