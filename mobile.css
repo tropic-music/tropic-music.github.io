@@ -3,6 +3,9 @@
 *::-webkit-scrollbar{
 height: 0px;
 }
+#spacei{
+top: 1700px;
+}
 menu{
 padding-top: 0px;
 padding-bottom: 0px;
@@ -91,19 +94,19 @@ left: 50%;
 }
 .r3{
 left: 1%;
-top: 1275px;
+top: 1300px;
 }
 .r4{
 left: 50%;
-top: 1275px;
+top: 1300px;
 }
 .r5{
 left: 1%;
-top: 1480px;
+top: 1500px;
 }
 .r6{
 left: 50%;
-top: 1480px;
+top: 1500px;
 padding-bottom: 10px;
 }
 }
