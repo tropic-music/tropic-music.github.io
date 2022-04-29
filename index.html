@@ -21,7 +21,7 @@
   <meta name="twitter:title" content="Tropic Music">
   <meta name="twitter:description" content="Tropic Music est une platforme de streaming audio. Téchacharger, écouter gratuitement vos chanson préférer et vos webradio">
   <meta name="twitter:image" content="https://tropic-groupe.github.io/files/tropic-music.png">
-  <link rel="icon" type="image/png" href="https://tropic-groupe.github.io/files/tropic-music-beta.png"/>
+  <link rel="icon" type="image/png" href="https://tropic-groupe.github.io/files/tropic-music.png"/>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="theme.css">
@@ -51,48 +51,34 @@ function getCookie(cname) {
 }
 
 function checkCookie() {
-  let infdate = getCookie("09/03/2022");
+  let infdate = getCookie("14/04/2022");
   if (infdate != "") {
   } else {
      infdate = ("1");
      if (infdate != "")
      function showNotification() {
-  const notification = new Notification("Tropic music beta", {
-    body: "Nouveau titre : Soolking - Suavemente",
-    icon: "https://tropic-groupe.github.io/files/tropic-music-beta.png"
+  const notification = new Notification("Tropic music", {
+    body: "Nouveau titre : Harry Style - As It Was",
+    icon: "https://tropic-groupe.github.io/files/tropic-music.png"
   });
   }
 
     console.log(Notification.permission);
 
     if (Notification.permission == "granted") {
+      setCookie("14/04/2022", infdate, 15);
       showNotification();
-      setCookie("09/03/2022", infdate, 20);
   }else if (Notification.permission !== "denied") {
     Notification.requestPermission().then(permission => {
       if (permission === "granted")
-setCookie("09/03/2022", infdate, 20);
+setCookie("14/04/2022", infdate, 15);
 showNotification();
     }); }
   }
 }
   </script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-  <script>
-    $('.homes').click(function(){
-  if(!$('.homes').parent().hasClass('active'))
-  {
 
-    $(this).parent().stop().addClass('active');
-    setTimeout(function(){  
-
-      $('.homes').parent().removeClass('active'); 
-    }, 300);
-  }
-});
-  </script>  
-
-  <a href="https://tropic-music.github.io/beta/"><h2 style="position: fixed; top: 4px; left: 40px; z-index: 4;" class="adt">Tropic music</h2><img src="https://tropic-groupe.github.io/files/tropic-music-beta.png" height="35px" style="position: fixed; top: 2px; left: 5px; z-index: 4;"></a></div>
+    <a href="https://tropic-music.github.io/"><h2 style="position: fixed; top: 4px; left: 40px; z-index: 4;" class="adt">Tropic music</h2><img src="https://tropic-groupe.github.io/files/tropic-music.png" height="35px" style="position: fixed; top: 2px; left: 5px; z-index: 4;"></a>
   <menu>
     <label for="mbl"><i class="fa fa-bars" id="bar"></i></label>
     <input type="checkbox" id="mbl" role="button">
@@ -104,21 +90,10 @@ showNotification();
         </li>
       </ul>
   </menu>
-
-   <style>
-     .beta{
-      background-color: #666; color: #fff; position:absolute; top: 37px; width: 100%; z-index: 2;
-     }
-     .btnbeta{
-       background-color: #1473e6; color: #fff; height: 30px; width: 90px; border: transparent 1px solid; border-radius: 50px; position: absolute; left: 450px; top:4px; font-weight: 800;}
-     .btnbeta:hover{
-       border: #eee 2px solid;
-     }
-   </style>
   <h2 style="z-index: -1;">.</h2>
 </head>
 
-<body>
+<body onload="checkCookie()">
   <!--Popup-->
   <div id="start"><div class="info">
     <div class="popt"><h1>Tropic Music : Info Droit Auteur</h1></div>  
@@ -136,20 +111,20 @@ showNotification();
   <p>Pour télécharger une/des musique(s) vous devez suivre le parcour suivent</p>
   </center>
   <h3>Edge, Chrome, Safari, Firefox, ...</h3>
-  <img src="img/Webkit.gif" width="55%" style="border-radius: 10px">
-  </div></div>
+  <img src="./img/Webkit.gif" width="55%" style="border-radius: 10px">
+    </div></div>
 
   <div id="add"><div class="info">
     <div class="popt"><h1>Ajouter playlist et radio</h1></div>
     <h2 class="adt">Ajouter votre playlist :</h2>
     <p>Une playlist doit contenir minimum 4 musiques</p>
       <div class="btn"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeKVGSRXHQ6w0fNLSwtUAnLPk0u9JM_4qFOz7uRSk9mLfX1bA/viewform" target="_blank">
-        <label class="add ad source" id="btn"><i>Ajouter votre playlist</i><i class="material-icons md-25">playlist_add</i></label><input type="button" class="hidden-accessible" onclick="capt()">
+        <label class="add ad source" id="btn"><i>Ajouter votre playlist</i><i class="material-icons">playlist_add</i></label><input type="button" class="hidden-accessible" onclick="capt()">
         </a></div>
         <h2 class="adt">Ajouter une radio :</h2>
         <p>La radio doit avoir un flux audio sur le web (disponible en webradio)</p>
         <div class="btn"><a href="https://docs.google.com/forms/d/e/1FAIpQLSe0IZs5gNSGnNguSNgTqwi_kUjqPb8sOYPcvVnagI6nA3a0Yw/viewform" target="_blank">
-          <label class="add ad source"id="btn"><i>Ajouter une radio</i><i class="material-icons md-25">radio</i></label><input type="button" class="hidden-accessible" onclick="capt()">
+          <label class="add ad source"id="btn"><i>Ajouter une radio</i><i class="material-icons">radio</i></label><input type="button" class="hidden-accessible" onclick="capt()">
           </a></div></div></div>
 
     <div id="about"><div class="info">
@@ -163,9 +138,9 @@ showNotification();
       <h2 class="adt">Aider nous :</h2>
       <p>Ajouter vos playlists et radio sur notre platforme. Aider nous a nous amélioré :</p>
       <div class="btn"><a href="https://docs.google.com/forms/d/e/1FAIpQLSef56n4_3yhoatq79xQjNPE4Cy3uNxm9DCucj6cREcFISRexw/viewform" target="_blank">
-        <label class="add ad source" id="btn"><i>Aider nous</i><i class="material-icons md-25">help_outline</i></label><input type="button" class="hidden-accessible" onclick="capt()">
+        <label class="add ad source" id="btn"><i>Aider nous</i><i class="material-icons">help_outline</i></label><input type="button" class="hidden-accessible" onclick="capt()">
         </a></div>
-      <p>Version du site : V2.0</p></div></div>
+      <p>Version du site : 2.0</p></div></div>
 
 <!--Music-->
 <section>
@@ -180,13 +155,13 @@ showNotification();
       <a href="./tracks/song2.html" target="iframe" onclick="mgbs()"><img src="img/playbtn.png" class="playbtn"><img src="img/song2.png" class="imgw"></a><h6 class="track">Enemy</h6><h6 class="author">Imagine Dragons</h6>
   </div>
   <div class="elemw n3">
-      <a href="tracks/song3.html" target="iframe" onclick="mgbs()"><img src="img/playbtn.png" class="playbtn"><img src="img/song3.png" class="imgw"></a><h6 class="track">Infini +1000</h6><h6 class="author">Mc Fly & Carlito</h6>
+      <a href="./tracks/song3.html" target="iframe" onclick="mgbs()"><img src="img/playbtn.png" class="playbtn"><img src="img/song3.png" class="imgw"></a><h6 class="track">Infini +1000</h6><h6 class="author">Mc Fly & Carlito</h6>
   </div>
   <div class="elemw n4">
-      <a href="tracks/song4.html" target="iframe" onclick="mgbs()"><img src="img/playbtn.png" class="playbtn"><img src="img/song4.png" class="imgw"></a><h6 class="track">Lipstick</h6><h6 class="author">Kungs</h6>
+      <a href="./tracks/song4.html" target="iframe" onclick="mgbs()"><img src="img/playbtn.png" class="playbtn"><img src="img/song4.png" class="imgw"></a><h6 class="track">Lipstick</h6><h6 class="author">Kungs</h6>
                   </div>
           <div class="elemw n5">
-              <a href="tracks/song5.html" target="iframe" onclick="mgbs()"><img src="img/playbtn.png" class="playbtn"><img src="img/song5.png" class="imgw"></a><h6 class="track">Won’t Let You Go</h6><h6 class="author">Martin Garix ft Matisse & Sadko et John Martin</h6>
+              <a href="./tracks/song5.html" target="iframe" onclick="mgbs()"><img src="img/playbtn.png" class="playbtn"><img src="img/song5.png" class="imgw"></a><h6 class="track">Won’t Let You Go</h6><h6 class="author">Martin Garix ft Matisse & Sadko et John Martin</h6>
           </div>
       <div class="elemw n6">
           <a href="./tracks/song6.html" target="iframe" onclick="mgbs()"><img src="img/playbtn.png" class="playbtn"><img src="img/song6.png" class="imgw"></a><h6 class="track">Young Right Now</h6><h6 class="author">Robin Schulz ft Dennis Lloyd</h6>
@@ -199,7 +174,7 @@ showNotification();
       <a href="./playlist/hits2021.html" target="iframe" onclick="mgbs()"><button class="p2 ps">Hits 2021</button></a>
       <a href="./playlist/top5.html" target="iframe" onclick="mgbs()"><button class="p3 ps">Top 5 France</button></a>
       <h5 class="spacep">Vos Playlists</h5>
-        <a href="./playlist/music.html" target="iframe" onclick="mgbs()"><button class="vp p2">Music</button></a>
+        <a href="./music.html" target="iframe" onclick="mgbs()"><button class="vp p2">Music</button></a>
           <a href="https://forms.gle/ZsA3oB2MVv2JRDGk7" target="_blank"><button class="addp material-icons md-25">add</button></a>
   </div>
   <div class="radio">
