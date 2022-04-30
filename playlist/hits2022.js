@@ -33,7 +33,7 @@ jQuery(function ($) {
             }, {
                 "track": 3,
                 "name": "Feder - Strangers",
-                "duration": "2:30",
+                "duration": "2:45",
                 "file": "Feder - Strangers"
             }, {
                 "track": 4,
@@ -43,7 +43,7 @@ jQuery(function ($) {
             }, {
                 "track": 5,
                 "name": "Fireboy DML ft Ed Sheeran - Peru",
-                "duration": "2:30",
+                "duration": "2:44",
                 "file": "Fireboy DML ft Ed Sheeran - Peru"
             }, {
                 "track": 6,
