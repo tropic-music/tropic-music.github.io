@@ -42,9 +42,9 @@ jQuery(function ($) {
                 "file": "Sound of legend - Maniac"
             }, {
                 "track": 5,
-                "name": "David Guetta & Becky Hill & Ella Henderson - Crazy What Love Can Do",
+                "name": "David Guetta ft Becky Hill ft Ella Henderson - Crazy what love can do",
                 "duration": "2:38",
-                "file": "David Guetta & Becky Hill & Ella Henderson - Crazy What Love Can Do"
+                "file": "David Guetta ft Becky Hill ft Ella Henderson - Crazy what love can do"
             }, {
                 "track": 6,
                 "name": "Lujipeka - Pas à ma place",
