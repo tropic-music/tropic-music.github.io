@@ -1,35 +1,35 @@
-const switchBtn = document.querySelector('#checkbox')
-const defaultTheme = window.matchMedia("(prefers-color-scheme :yes)");
+const switchCookie = document.querySelector('#checkbox')
+const defaultCookie = window.matchMedia("(show :yes)");
 let currentstart = localStorage.getItem('start')
-switchBtn.addEventListener('change', switchTheme)
+switchCookie.addEventListener('start', cookie)
 
-if (defaultTheme.matches) {
+if (defaultCookie.matches) {
     if (currentstart === 'yes') {
         document.getElementById("start").style.display = "block";
-        switchBtn.checked = false;
+        switchCookie.checked = false;
     } else if (currentstart === 'no') {
         document.getElementById("start").style.display = "none";
-        switchBtn.checked = true;
+        switchCookie.checked = true;
     }
 
 } else {
     if (currentstart === 'yes') {
         document.getElementById("start").style.display = "block";;
-        switchBtn.checked = false;
+        switchCookie.checked = false;
     } else if (currentstart === 'no') {
         document.getElementById("start").style.display = "none";
-        switchBtn.checked = true;
+        switchCookie.checked = true;
     }
 }
 
-function switchTheme(e) {
+function cookie(e) {
     if (e.target.checked) {
         document.getElementById("start").style.display = "block";
         localStorage.setItem('start', 'no')
-        console.log(localStorage.getItem('theme'));
+        console.log(localStorage.getItem('start'));
     } else {
         document.getElementById("start").style.display = "block";
         localStorage.setItem('start', 'yes')
-        console.log(localStorage.getItem('theme'));
+        console.log(localStorage.getItem('start'));
     }
 }

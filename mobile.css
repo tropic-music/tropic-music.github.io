@@ -1,10 +1,7 @@
 /*Smartphone*/
-@media screen and (max-width: 780px){
+@media screen and (max-width: 499px){
 *::-webkit-scrollbar{
 height: 0px;
-}
-#spacei{
-top: 1770px;
 }
 menu{
 padding-top: 0px;
@@ -16,7 +13,8 @@ display: block;
 menu ul{
 margin-top: 40px;
 display: none;
-background-color: #555;
+background-color: var(--menu-color);
+transition: all .2s ease;
 border-top: #ddd 1px solid;
 }
 #bar{display: block;}
@@ -28,6 +26,8 @@ menu ul li{
 margin: 5px 0px 8px;
 width: max-content;
 }
+em{display: none;}
+.theme-switch-wrapper {right: 60px;}
 #mgbtn{
 height: 35px;
 width: 35px;
@@ -71,9 +71,9 @@ padding-top: 50px;
 height: 600px;
 }
 .ps{
-height: 117px;
-width: 117px;
-font-size: 29px;
+height: 125px;
+width: 125px;
+font-size: 30px;
 }
 .vp{
 width: 140px;
@@ -94,25 +94,135 @@ left: 50%;
 }
 .r3{
 left: 1%;
-top: 1325px;
+top: 1335px;
 }
 .r4{
 left: 50%;
-top: 1325px;
+top: 1335px;
 }
 .r5{
 left: 1%;
-top: 1525px;
+top: 1530px;
 }
 .r6{
 left: 50%;
-top: 1525px;
+top: 1530px;
+padding-bottom: 10px;
+}
+}
+
+/*Petite tablette*/
+@media screen and (min-width: 500px) and (max-width: 780px){
+*::-webkit-scrollbar{
+height: 0px;
+}
+menu{
+padding-top: 0px;
+padding-bottom: 0px;
+}
+menu label{
+display: block;
+}
+menu ul{
+margin-top: 40px;
+display: none;
+background-color: var(--menu-color);
+transition: all .2s ease;
+border-top: #ddd 1px solid;
+}
+#bar{display: block;}
+#mbl[type=checkbox]:checked + ul{
+display: flex;
+flex-flow:column-reverse;
+}
+menu ul li{
+margin: 5px 0px 8px;
+width: max-content;
+}
+.theme-switch-wrapper {right: 80px;}
+#mgbtn{
+height: 35px;
+width: 35px;
+bottom: 9%;
+right: 5px;
+}
+.rotade{
+top: 15%;
+}
+    
+.new{
+height: 350px;
+}
+.elemw{
+width: 50%;
+}
+.n2{
+left: 50%;
+}
+.n3{
+left: 0%;
+top: 210px;
+}
+.n4{
+left: 50%;
+top: 210px;
+}
+.n5{
+left: 0%;
+top: 300px;
+}
+.n6{
+left: 50%;
+top: 300px;
+}
+
+.spacep{
+padding-top: 50px;
+}
+.playlist{
+height: 600px;
+}
+.ps{
+height: 150px;
+width: 150px;
+}
+.vp{
+width: 150px;
+height: 150px;
+}
+.addp{
+width: 150px;
+height: 150px;
+}
+
+.elemr > a > img , button{
+height: 150px;
+width: 150px;
+}
+.r2{
+left: 34%;
+}
+.r3{
+left: 67%;
+}
+.r4{
+left: 1%;
+top: 1335px;
+}
+.r5{
+left: 34%;
+top: 1335px;
+}
+.r6{
+left: 67%;
+top: 1335px;
 padding-bottom: 10px;
 }
 }
 
 /*Tablette*/
 @media screen and (min-width: 781px) and (max-width: 1050px){
+.theme-switch-wrapper {right: 62%;}
 #mgbtn{
 height: 35px;
 width: 35px;
