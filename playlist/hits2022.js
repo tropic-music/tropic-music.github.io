@@ -23,17 +23,17 @@ jQuery(function ($) {
             tracks = [{
                 "track": 1,
                 "name": "Celestal ft Cecilia Krull - Out in style",
-                "duration": "2:40",
+                "duration": "3:03",
                 "file": "Celestal ft Cecilia Krull - Out in style"
             }, {
                 "track": 2,
                 "name": "Kygo ft DNCE - Dancing Feet",
-                "duration": "2:40",
+                "duration": "3:01",
                 "file": "Kygo ft DNCE - Dancing Feet"
             }, {
                 "track": 3,
                 "name": "Goerge Ezra - Anyone For You",
-                "duration": "2:40",
+                "duration": "2:57",
                 "file": "Goerge Ezra - Anyone For You"
             }, {
                 "track": 4,
