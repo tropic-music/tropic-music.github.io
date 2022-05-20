@@ -18,13 +18,13 @@ jQuery(function ($) {
 
         var index = 0,
             playing = false,
-            mediaPath = 'https://tropic-music.github.io/hits2021/',
+            mediaPath = 'https://tropic-music.github.io/hits2022/',
             extension = '',
             tracks = [{
                 "track": 1,
-                "name": "Trei degete - Time time",
-                "duration": "2:55",
-                "file": "Trei Degete - Time Time"
+                "name": "Celestal ft Cecilia Krull - Out in style",
+                "duration": "3:03",
+                "file": "Celestal ft Cecilia Krull - Out in style"
             }],
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,
