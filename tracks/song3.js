@@ -22,9 +22,9 @@ jQuery(function ($) {
             extension = '',
             tracks = [{
                 "track": 1,
-                "name": "Mc Fly & Carlito - Infini +1000",
-                "duration": "2:43",
-                "file": "Mc Fly & Carlito - Infini +1000"
+                "name": "Goerge Ezra - Anyone For You",
+                "duration": "2:57",
+                "file": "Goerge Ezra - Anyone For You"
             }],
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,
