@@ -22,9 +22,9 @@ jQuery(function ($) {
             extension = '',
             tracks = [{
                 "track": 1,
-                "name": "Kungs - Lipstick",
-                "duration": "2:51",
-                "file": "Kungs - Lipstick"
+                "name": "Dorely - Où que tu sois",
+                "duration": "2:40",
+                "file": "Dorely - Où que tu sois"
             }],
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,
