@@ -2,6 +2,7 @@
     "name": "Tropic music",
     "short_name": "Tropic music",
     "description": "Tropic Music platforme de streaming audio gratuit. Téchachargez et écoutez gratuitement vos chansons et webradio préférées.",
+    "version": "2.1",
     "icons": [
         {
             "src": "/favicons/android-chrome-192x192.png",
