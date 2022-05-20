@@ -215,5 +215,13 @@ showNotification();
 <!--Contenu page-->
 <script src="./script.js"></script>
 <script src="./theme.js"></script>
+<script>
+      // Register service worker
+      if ("serviceWorker" in navigator) {
+          window.addEventListener("load", () => {
+              navigator.serviceWorker.register("/minimal-ui/sw.js", { scope: '/minimal-ui/' });
+          });
+      }
+</script>
 </body>
 </html>
