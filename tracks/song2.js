@@ -22,9 +22,9 @@ jQuery(function ($) {
             extension = '',
             tracks = [{
                 "track": 1,
-                "name": "Imagine dragons - Enemy",
-                "duration": "2:42",
-                "file": "Imagine dragons - Enemy"
+                "name": "Kygo ft DNCE - Dancing Feet",
+                "duration": "3:01",
+                "file": "Kygo ft DNCE - Dancing Feet"
             }],
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,
