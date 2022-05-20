@@ -26,11 +26,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="theme.css"><link rel="stylesheet" href="mobile.css">
   <script>
-    function setCookie(cname,cvalue,exdays) {
-const d = new Date();
-  d.setTime(d.getTime() + (exdays*24*60*60*1000));
-  let expires = "expires=" + d.toUTCString();
-  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+ function setCookie(cname,cvalue) {
+  document.cookie = cname + "=" + cvalue;
 }
 
 function getCookie(cname) {
@@ -50,14 +47,14 @@ function getCookie(cname) {
 }
 
 function checkCookie() {
-  let infdate = getCookie("14/04/2022");
-  if (infdate != "") {
+  let infdate = getCookie("Notif");
+  if (infdate === "20/05/2022") {
   } else {
-     infdate = ("1");
+     infdate = ("20/05/2022");
      if (infdate != "")
      function showNotification() {
   const notification = new Notification("Tropic music", {
-    body: "Nouveau titre : Harry Style - As It Was",
+    body: "Nouveau titre : Celestal ft Cecilia Krull - Out in style",
     icon: "https://tropic-groupe.github.io/files/tropic-music.png"
   });
   }
@@ -65,12 +62,12 @@ function checkCookie() {
     console.log(Notification.permission);
 
     if (Notification.permission == "granted") {
-      setCookie("14/04/2022", infdate, 15);
       showNotification();
+      setCookie("Notif", infdate);
   }else if (Notification.permission !== "denied") {
     Notification.requestPermission().then(permission => {
       if (permission === "granted")
-setCookie("14/04/2022", infdate, 15);
+setCookie("Notif", infdate);
 showNotification();
     }); }
   }
