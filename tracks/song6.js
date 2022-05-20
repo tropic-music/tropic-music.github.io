@@ -22,9 +22,9 @@ jQuery(function ($) {
             extension = '',
             tracks = [{
                 "track": 1,
-                "name": "Robin Schulz x Dennis Lloyd - Young Right Now",
-                "duration": "2:53",
-                "file": "Robin Schulz x Dennis Lloyd - Young Right Now"
+                "name": "Imanbek & BYOR - Belly Dancer",
+                "duration": "2:21",
+                "file": "Imanbek & BYOR - Belly Dancer"
             }],
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,
