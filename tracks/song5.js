@@ -22,9 +22,9 @@ jQuery(function ($) {
             extension = '',
             tracks = [{
                 "track": 1,
-                "name": "Martin Garix ft Matisse & Sadko et John Martin - Won’t Let You Go",
-                "duration": "3:27",
-                "file": "Martin Garix - Won’t Let You Go"
+                "name": "Jax Jones ft MNEK - Where Did You Go",
+                "duration": "2:54",
+                "file": "Jax Jones ft MNEK - Where Did You Go"
             }],
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,
