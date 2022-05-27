@@ -16,7 +16,7 @@
         }
     ],
     "scope":"/",
-    "start_url": "/?mode=PWA",
+    "start_url": "/",
     "theme_color": "#4fa1a7",
     "background_color": "#444444",
     "display": "minimal-ui",
