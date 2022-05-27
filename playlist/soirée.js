@@ -92,9 +92,9 @@ jQuery(function ($) {
                 "file": "DJ Snake ft Selena Gomez, Ozuna, Cardi B - Taki Taki"
             }, {
                 "track": 15,
-                "name": "Vicetone - Astronomia",
-                "duration": "3:18",
-                "file": "Vicetone - Astronomia"
+                "name": "Avicii - Wake Me Up",
+                "duration": "3:21",
+                "file": "Avicii - Wake Me Up"
             }, {
                 "track": 16,
                 "name": "David Guetta & Showtek - Bad ft.Vassy",
