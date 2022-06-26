@@ -410,16 +410,13 @@ border: 2px solid #ccc;
 }
 
 .p1{
-background: linear-gradient(115deg,rgb(255, 0, 0) 0%,#ffd000 100%);
+background: linear-gradient(115deg,#ffa600 0%, #f003d0 100%);
 }
 .p2{
 background: linear-gradient(115deg,rgb(166, 255, 0) 0%,#00ffea 100%);
 }
 .p3{
 background: linear-gradient(115deg,rgb(0, 238, 255) 0%,#a200ff 100%);
-}
-.p4{
-background: linear-gradient(115deg,#ffa600 0%, #f003d0 100%);
 }
 .elemr > a > img , button{
 height: 200px;
