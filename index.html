@@ -25,6 +25,59 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="theme.css"><link rel="stylesheet" href="mobile.css">
+  
+  <script>
+    function setCookie(cname,cvalue,cpopup,exdays) {
+const d = new Date();
+  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+  let expires = "expires=" + d.toUTCString();
+  document.cookie = cname + "=" + cvalue + ";" + cpopup + ";" + expires + ";path=/";
+}
+
+function getCookie(cname) {
+  let name = cname + "=";
+  let decodedCookie = decodeURIComponent(document.cookie);
+  let ca = decodedCookie.split(';');
+  for(let i = 0; i < ca.length; i++) {
+    let c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+
+function checkCookie() {
+  let infdate = getCookie("Notif");
+  if(popup != ""){document.getElementById("start").style.display = "none";} else {popup = ("1");}
+  if (infdate != "") {
+  } else {
+     infdate = ("1");
+     if (infdate != "")
+     function showNotification() {
+  const notification = new Notification("Tropic music beta", {
+    body: "Nouveau titre : Soolking - Suavemente",
+    icon: "https://tropic-groupe.github.io/files/tropic-music-beta.png"
+  });
+  }
+
+    console.log(Notification.permission);
+
+    if (Notification.permission == "granted") {
+      showNotification();
+      setCookie("Notif", infdate, popup, 365);
+  }else if (Notification.permission !== "denied") {
+    Notification.requestPermission().then(permission => {
+      if (permission === "granted")
+setCookie("Notif", infdate, popup, 365);
+showNotification();
+    }); }
+  }
+}
+  </script>
 
 <a href="https://tropic-music.github.io/"><h2 style="position: fixed; top: 4px; left: 40px; z-index: 4;" class="adt">Tropic music</h2><img src="https://tropic-groupe.github.io/files/tropic-music.png" height="35px" style="position: fixed; top: 2px; left: 5px; z-index: 4;"></a>
   <nav class="theme-switch-wrapper">
@@ -161,59 +214,6 @@
 <iframe src="" height="0px" name="iframe" scrolling="no" width="100%" class="iplay" id="iplay"></iframe>
 
 <!--Contenu page-->
-  <script>
-    function setCookie(cname,cvalue,cpopup,exdays) {
-const d = new Date();
-  d.setTime(d.getTime() + (exdays*24*60*60*1000));
-  let expires = "expires=" + d.toUTCString();
-  document.cookie = cname + "=" + cvalue + ";" + cpopup + ";" + expires + ";path=/";
-}
-
-function getCookie(cname) {
-  let name = cname + "=";
-  let decodedCookie = decodeURIComponent(document.cookie);
-  let ca = decodedCookie.split(';');
-  for(let i = 0; i < ca.length; i++) {
-    let c = ca[i];
-    while (c.charAt(0) == ' ') {
-      c = c.substring(1);
-    }
-    if (c.indexOf(name) == 0) {
-      return c.substring(name.length, c.length);
-    }
-  }
-  return "";
-}
-
-function checkCookie() {
-  let infdate = getCookie("Notif");
-  if(cpopup != ""){document.getElementById("start").style.display = "none";}
-  cpopup = ("1");
-  if (infdate != "") {
-  } else {
-     infdate = ("1");
-     if (infdate != "")
-     function showNotification() {
-  const notification = new Notification("Tropic music beta", {
-    body: "Nouveau titre : Soolking - Suavemente",
-    icon: "https://tropic-groupe.github.io/files/tropic-music-beta.png"
-  });
-  }
-
-    console.log(Notification.permission);
-
-    if (Notification.permission == "granted") {
-      showNotification();
-      setCookie("Notif", infdate, cpopup, 365);
-  }else if (Notification.permission !== "denied") {
-    Notification.requestPermission().then(permission => {
-      if (permission === "granted")
-setCookie("Notif", infdate, cpopup, 365);
-showNotification();
-    }); }
-  }
-}
-  </script>
 <script src="./script.js"></script>
 <script src="./theme.js"></script>
 </body>
