@@ -52,7 +52,6 @@ function getCookie(cname) {
 
 function checkCookie() {
   let infdate = getCookie("Notif");
-  if(popup != ""){document.getElementById("start").style.display = "none";} else {popup = ("1");}
   if (infdate != "") {
   } else {
      infdate = ("1");
@@ -68,11 +67,11 @@ function checkCookie() {
 
     if (Notification.permission == "granted") {
       showNotification();
-      setCookie("Notif", infdate, popup, 365);
+      setCookie("Notif", infdate, 365);
   }else if (Notification.permission !== "denied") {
     Notification.requestPermission().then(permission => {
       if (permission === "granted")
-setCookie("Notif", infdate, popup, 365);
+setCookie("Notif", infdate, 365);
 showNotification();
     }); }
   }
