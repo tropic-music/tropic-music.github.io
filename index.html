@@ -161,16 +161,14 @@
 <iframe src="" height="0px" name="iframe" scrolling="no" width="100%" class="iplay" id="iplay"></iframe>
 
 <!--Contenu page-->
-<script>
-     function setCookie(cname,cvalue,popup,exdays) {
-      let popup
-      if(popup === "yes"){document.getElementById("start").style.display = "none";}
+  <script>
+    function setCookie(cname,cvalue,cpopup,exdays) {
 const d = new Date();
   d.setTime(d.getTime() + (exdays*24*60*60*1000));
   let expires = "expires=" + d.toUTCString();
   let switchCookie = document.getElementById('checkbox');
-  let popup = "yes";
-  document.cookie = cname + "=" + cvalue + ";" + popup + ";" + expires + ";path=/";
+  let cpopup = "yes";
+  document.cookie = cname + "=" + cvalue + ";" + cpopup + ";" + expires + ";path=/";
 }
 
 function getCookie(cname) {
@@ -191,14 +189,16 @@ function getCookie(cname) {
 
 function checkCookie() {
   let infdate = getCookie("Notif");
-  if (infdate === "20/05/2022") {
+  if(cpopup != ""){document.getElementById("start").style.display = "none";}
+  cpopup = ("1");
+  if (infdate != "") {
   } else {
-     infdate = ("20/05/2022");
+     infdate = ("1");
      if (infdate != "")
      function showNotification() {
-  const notification = new Notification("Tropic music", {
-    body: "Nouveau titre : Celestal ft Cecilia Krull - Out in style",
-    icon: "https://tropic-groupe.github.io/files/tropic-music.png"
+  const notification = new Notification("Tropic music beta", {
+    body: "Nouveau titre : Soolking - Suavemente",
+    icon: "https://tropic-groupe.github.io/files/tropic-music-beta.png"
   });
   }
 
@@ -206,11 +206,11 @@ function checkCookie() {
 
     if (Notification.permission == "granted") {
       showNotification();
-      setCookie("Notif", infdate, 365);
+      setCookie("Notif", infdate, cpopup, 365);
   }else if (Notification.permission !== "denied") {
     Notification.requestPermission().then(permission => {
       if (permission === "granted")
-setCookie("Notif", infdate, 365);
+setCookie("Notif", infdate, cpopup, 365);
 showNotification();
     }); }
   }
