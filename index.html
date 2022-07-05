@@ -166,8 +166,6 @@
 const d = new Date();
   d.setTime(d.getTime() + (exdays*24*60*60*1000));
   let expires = "expires=" + d.toUTCString();
-  let switchCookie = document.getElementById('checkbox');
-  let cpopup = "yes";
   document.cookie = cname + "=" + cvalue + ";" + cpopup + ";" + expires + ";path=/";
 }
 
