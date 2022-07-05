@@ -26,11 +26,24 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="theme.css"><link rel="stylesheet" href="mobile.css">
   <script>
-     function setCookie(cname,cvalue,exdays) {
+     function setCookie(cname,cvalue,popup,exdays) {
 const d = new Date();
   d.setTime(d.getTime() + (exdays*24*60*60*1000));
   let expires = "expires=" + d.toUTCString();
-  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+  let switchCookie = document.getElementById('checkbox');
+  if (switchCookie.checked === false) {
+    let popup = "yes"
+        document.getElementById("start").style.display = "block";
+    } else {
+        document.getElementById("start").style.display = "none";
+      let popup = "no"
+    }
+      if (popup === "yes") {
+        document.getElementById("start").style.display = "block";
+    } else {
+        document.getElementById("start").style.display = "none";
+    }
+  document.cookie = cname + "=" + cvalue + ";" + popup + ";" + expires + ";path=/";
 }
 
 function getCookie(cname) {
