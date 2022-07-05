@@ -163,22 +163,13 @@
 <!--Contenu page-->
 <script>
      function setCookie(cname,cvalue,popup,exdays) {
+      let popup
+      if(popup === "yes"){document.getElementById("start").style.display = "none";}
 const d = new Date();
   d.setTime(d.getTime() + (exdays*24*60*60*1000));
   let expires = "expires=" + d.toUTCString();
   let switchCookie = document.getElementById('checkbox');
-  if (switchCookie.checked === false) {
-    let popup = "yes"
-        document.getElementById("start").style.display = "block";
-    } else {
-        document.getElementById("start").style.display = "none";
-      let popup = "no"
-    }
-      if (popup === "yes") {
-        document.getElementById("start").style.display = "block";
-    } else {
-        document.getElementById("start").style.display = "none";
-    }
+  let popup = "yes";
   document.cookie = cname + "=" + cvalue + ";" + popup + ";" + expires + ";path=/";
 }
 
