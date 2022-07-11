@@ -52,13 +52,13 @@ function getCookie(cname) {
 
 function checkCookie() {
   let infdate = getCookie("Notif");
-  if (infdate != "") {
+  if (infdate === "11/07/2022") {
   } else {
-     infdate = ("1");
-     if (infdate != "")
+     infdate = ("11/07/2022");
+     if (infdate === "11/07/2022")
      function showNotification() {
-  const notification = new Notification("Tropic music beta", {
-    body: "Nouveau titre : Soolking - Suavemente",
+  const notification = new Notification("Tropic music", {
+    body: "Information : Aider nous en répondent à un sondage pour la V3 (voir page a propos)",
     icon: "https://tropic-groupe.github.io/files/tropic-music-beta.png"
   });
   }
@@ -98,6 +98,9 @@ showNotification();
       </ul>
   </menu>
   <h2 style="z-index: -1;">.</h2>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1bur9zYkh3ygAqFOe1JDKHmuksE7VpbHQp_4mPFoclPwwdQ/viewform" target="_blank" style="position: fixed; top: 50px; right: 5px; background: lightseagreen; border-radius: 50px; padding: 9px 0px 5px 9px;">
+        <i class="material-icons add">help_outline</i>
+   </a>
 </head>
 
 <body onload="checkCookie()">
@@ -137,6 +140,9 @@ showNotification();
       <p>Ajouter vos playlists et radio sur notre platforme. Aider nous a nous amélioré :</p>
       <div class="btn"><a href="https://docs.google.com/forms/d/e/1FAIpQLSef56n4_3yhoatq79xQjNPE4Cy3uNxm9DCucj6cREcFISRexw/viewform" target="_blank">
         <label class="add ad source" id="btn"><i>Aider nous</i><i class="material-icons">help_outline</i></label><input type="button" class="hidden-accessible" onclick="capt()">
+        </a></div>
+      <div class="btn"><a href="https://docs.google.com/forms/d/e/1FAIpQLSe1bur9zYkh3ygAqFOe1JDKHmuksE7VpbHQp_4mPFoclPwwdQ/viewform" target="_blank">
+        <label class="add ad source" id="btn"><i>Sondage V3</i><i class="material-icons">help_outline</i></label><input type="button" class="hidden-accessible" onclick="capt()">
         </a></div>
       <p>Version du site : 2.2</p></div></div>
 
